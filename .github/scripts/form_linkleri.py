@@ -1,0 +1,317 @@
+#!/usr/bin/env python3
+"""README'lerdeki Google Form bölümlerini üretir (tekrar çalıştırılabilir).
+
+- Ders kartları/sayfaları:
+  "⭐ Yıldız Sayıları"   -> Ders Özellikleri Oylama sonuçları + oylama linki (ders önceden seçili)
+  "💬 Öğrenci Görüşleri" -> onaylanmış ders yorumları + yorum linki (ders önceden seçili)
+- Hoca kartları: "💬 Öğrenci Görüşleri" -> onaylanmış hoca yorumları + yorum linki.
+  Hoca oylama formu olmadığı için hoca kartlarındaki yıldız satırı kaldırılır.
+- Ana README'nin başındaki "Geri Bildirimde Bulunun" linkleri.
+
+Yorumlar SADECE cevap tablosundaki "Onay" sütunu işaretliyse yayınlanır.
+Form adresleri, soru kimlikleri ve CSV linkleri: .github/json_dosyalari/konfigurasyon.json.
+Test için FORM_CSV_DIZIN ortam değişkeniyle yerel CSV klasörü verilebilir
+(hoca_yorumlama.csv, ders_yorumlama.csv, ders_oylama.csv).
+Sadece Python standart kütüphanesi kullanılır.
+"""
+import csv
+import io
+import json
+import os
+import re
+import subprocess
+import sys
+import urllib.parse
+import unicodedata
+import urllib.request
+
+KONF = ".github/json_dosyalari/konfigurasyon.json"
+DONEMLER_JSON = ".github/json_dosyalari/donemler.json"
+OZETTE_YORUM = 2          # ana sayfa ve dönem sayfasında gösterilen yorum sayısı
+YORUM_UZUNLUK = 1500
+ONAY_DEGERLERI = {"true", "doğru", "dogru", "evet", "x", "✓", "✔", "1", "onay", "onaylandı"}
+
+YILDIZ = re.compile(r"^( *)- ⭐ \*\*Yıldız Sayıları:\*\*$", re.M)
+GORUS = re.compile(r"^( *)- 💬 \*\*Öğrenci Görüşleri:\*\*$", re.M)
+UNVAN = re.compile(r"^(Prof\. Dr\.|Prof\.|Doç\. Dr\.|Dr\. Öğretim Üyesi|Öğr\. Gör\. Dr\.|Öğr\. Gör\."
+                   r"|Arş\. Gör\. Dr\.|Arş\. Gör\.|Dr\.)\s*")
+
+
+# ---------------------------------------------------------------- veri
+
+def csv_oku(f, anahtar):
+    dizin = os.environ.get("FORM_CSV_DIZIN")
+    if dizin:
+        with open(os.path.join(dizin, anahtar + ".csv"), encoding="utf-8") as d:
+            return list(csv.DictReader(d))
+    adres = f.get(anahtar, {}).get(anahtar + "_csv")
+    if not adres:
+        raise ValueError(f"konfigurasyon.json'da {anahtar}_csv adresi yok")
+    with urllib.request.urlopen(adres, timeout=60) as y:
+        return list(csv.DictReader(io.StringIO(y.read().decode("utf-8"))))
+
+
+def onayli(satir):
+    for k, v in satir.items():
+        if k and k.strip().lower() == "onay":
+            return (v or "").strip().lower() in ONAY_DEGERLERI
+    return False
+
+
+def ay_yil(zaman):
+    m = re.match(r"(\d{1,2})([/.])(\d{1,2})\2(\d{4})", (zaman or "").strip())
+    if not m:
+        return ""
+    a, ayrac, b, yil = m.groups()
+    ay = a if ayrac == "/" else b  # "/" -> ABD biçimi (A/G/Y), "." -> G.A.Y
+    return f"{int(ay):02d}.{yil}"
+
+
+def temiz(metin, uzunluk):
+    metin = re.sub(r"\s+", " ", metin or "").strip()[:uzunluk]
+    metin = metin.replace("<", "&lt;").replace(">", "&gt;")
+    return re.sub(r"([\[\]`*_|\\])", r"\\\1", metin)
+
+
+def unvansiz(ad):
+    """Hoca yorumları ünvansız ada göre eşleşir: hoca terfi edip README'de adı değişince eski yorumlar kaybolmaz."""
+    return UNVAN.sub("", ad.strip(), count=1)
+
+
+def veri_topla(f):
+    oylar, ders_yorum, hoca_yorum = {}, {}, {}
+    for s in csv_oku(f, "ders_oylama"):
+        try:
+            oylar.setdefault(s["Ders Seç"].strip(), []).append(
+                (int(s["Dersi geçmek ne kadar kolay?"]), int(s["Ders mesleki açıdan gerekli mi?"])))
+        except (KeyError, ValueError):
+            continue
+    for anahtar, hedef, alan, yorum_alani, ad_anahtari in [
+            ("ders_yorumlama", ders_yorum, "Ders Seç", "Ders hakkındaki yorumun", str.strip),
+            ("hoca_yorumlama", hoca_yorum, "Hoca seç", "Hoca hakkındaki yorumun", unvansiz)]:
+        for s in csv_oku(f, anahtar):
+            if not onayli(s) or not (s.get(yorum_alani) or "").strip():
+                continue
+            hedef.setdefault(ad_anahtari(s[alan]), []).append(
+                (temiz(s.get("İsmin nasıl gözüksün") or "Anonim", 40),
+                 temiz(s[yorum_alani], YORUM_UZUNLUK), ay_yil(s.get("Timestamp") or s.get("Zaman damgası"))))
+    for d in (ders_yorum, hoca_yorum):  # en yeni yorum üstte
+        for k in d:
+            d[k].reverse()
+    return oylar, ders_yorum, hoca_yorum
+
+
+# ---------------------------------------------------------------- çizim
+
+def url(form, alan=None, deger=None):
+    u = form["link"]
+    if alan and deger:
+        u += "?usp=pp_url&entry." + form[alan] + "=" + urllib.parse.quote(deger)
+    return u
+
+
+def yildiz(ort):
+    n = max(0, min(10, round(ort)))
+    return "★" * n + "☆" * (10 - n)
+
+
+def blok_sonu(metin, m):
+    """Başlık eşleşmesinden sonra, başlıktan daha içeride olan satırların bittiği konum."""
+    girinti = len(m.group(1))
+    son = m.end() + 1
+    while son < len(metin):
+        satir_sonu = metin.find("\n", son)
+        satir = metin[son:satir_sonu if satir_sonu >= 0 else len(metin)]
+        if satir.strip() == "" or len(satir) - len(satir.lstrip(" ")) <= girinti:
+            break
+        son = (satir_sonu + 1) if satir_sonu >= 0 else len(metin)
+    return son
+
+
+def blok_degistir(metin, desen, yeni_satirlar):
+    """Başlık satırını ve ondan daha içeride olan alt satırlarını yenileriyle değiştirir."""
+    m = desen.search(metin)
+    if not m:
+        return metin, False
+    girinti = len(m.group(1))
+    son = blok_sonu(metin, m)
+    alt = metin[m.end() + 1:son]
+    ic = " " * girinti + "    "
+    ilk_alt = re.match(r"( +)- ", alt)
+    if ilk_alt:
+        ic = ilk_alt.group(1)
+    govde = "".join(f"{ic}{s}\n" for s in yeni_satirlar)
+    if metin[son:].startswith("#"):  # hemen ardından başlık geliyorsa araya boş satır
+        govde += "\n"
+    return metin[:m.start()] + m.group(0) + "\n" + govde + metin[son:], True
+
+
+def yildiz_satirlari(ders, oylar, f):
+    link = url(f["ders_oylama"], "ders_alani", ders)
+    o = oylar.get(ders)
+    if not o:
+        return [f"- ℹ️ Henüz yıldız veren yok. Siz de [linkten]({link}) anonim şekilde oylamaya katılabilirsiniz."]
+    kolay = sum(a for a, _ in o) / len(o)
+    gerekli = sum(b for _, b in o) / len(o)
+    return [f"- ✅ Dersi Kolay Geçer Miyim: {yildiz(kolay)}",
+            f"- 🎯 Ders Mesleki Açıdan Gerekli Mi: {yildiz(gerekli)}",
+            f"  - ℹ️ Yıldızlar {len(o)} oy üzerinden hesaplanmıştır. Siz de [linkten]({link}) "
+            "anonim şekilde oylamaya katılabilirsiniz."]
+
+
+def gorus_satirlari(yorumlar, link, sinir=None, devam_notu=""):
+    if not yorumlar:
+        return [f"- ℹ️ Henüz yorum yok. Siz de [linkten]({link}) anonim şekilde görüşlerinizi belirtebilirsiniz."]
+    gosterilen = yorumlar if sinir is None else yorumlar[:sinir]
+    satirlar = [f"- 👤 **_{isim}_**: {yorum}" + (f" ℹ️ Yorum **{tarih}** tarihinde yapılmıştır." if tarih else "")
+                for isim, yorum, tarih in gosterilen]
+    if len(yorumlar) > len(gosterilen):
+        satirlar.append(f"- ℹ️ Diğer {len(yorumlar) - len(gosterilen)} yoruma {devam_notu} erişebilirsiniz.")
+    satirlar.append(f"  - ℹ️ Siz de [linkten]({link}) anonim şekilde görüşlerinizi belirtebilirsiniz.")
+    return satirlar
+
+
+def github_slug(baslik):
+    """GitHub'ın başlık bağlantısı (Unicode küçültme; emoji içindeki U+200D korunur)."""
+    out = []
+    for c in baslik.strip().lower():
+        if c == " ":
+            out.append("-")
+        elif c in "-_" or c == "\u200d" or unicodedata.category(c)[0] in "LNM":
+            out.append(c)
+    return "#" + "".join(out)
+
+
+HOCA_BOLUMU = "## 💬 Bu Dersi Veren Hocalar Hakkında"
+SON_YIL = 2  # ders sayfasında hocaları gösterilen son akademik yıl sayısı
+HOCA_ADI = re.compile(r"^  - (?:\*\*[^*]+\*\* — )?(.+?)(?: \([^)]*\))?$")
+
+
+def hoca_bolumu(metin, veri, f, hocalar, kart_emoji):
+    """Ders sayfasına, dersi en son veren hocaların yorumlarını ve yorum linklerini ekler."""
+    metin = re.sub(re.escape(HOCA_BOLUMU) + r"\n.*?(?=^## |\Z)", "", metin, flags=re.S | re.M)
+    m = re.search(r"^## 👨‍🏫 👩‍🏫 Dersi Yürüten Akademisyenler:\n((?:[- ] .*\n)+)", metin, flags=re.M)
+    if not m:
+        return metin
+    yillar = re.findall(r"^- \*\*(\d{4}-\d{4})\*\*[^\n]*\n((?:  - .*\n)+)", m.group(1), flags=re.M)[:SON_YIL]
+    if not yillar:
+        return metin
+    satirlar = list(dict.fromkeys(s for _, blok in yillar for s in blok.splitlines()))
+    aralik = yillar[0][0] if len(yillar) == 1 else f"{yillar[-1][0]} ve {yillar[0][0]}"
+    govde = [HOCA_BOLUMU, "", f"Dersi {aralik} akademik yıllarında veren hocalar. Yorumlar hocanın tüm derslerini kapsar.", ""]
+    gorulen = set()
+    for satir in satirlar:
+        ad = HOCA_ADI.match(satir).group(1).strip()
+        if ad in gorulen:
+            continue
+        gorulen.add(ad)
+        kart = f"../../README.md{github_slug(kart_emoji[ad] + ' ' + ad)}" if ad in kart_emoji else None
+        govde.append(f"- **[{ad}]({kart})**" if kart else f"- **{ad}**")
+        if ad in hocalar:  # hocalar.json'daki her hoca (önceki yıllarda ders verenler dahil) formda var
+            link = url(f["hoca_yorumlama"], "hoca_alani", ad)
+            yorumlar = veri[2].get(unvansiz(ad), [])
+            for isim, yorum, tarih in yorumlar[:OZETTE_YORUM]:
+                govde.append(f"    - 👤 **_{isim}_**: {yorum}" + (f" ℹ️ Yorum **{tarih}** tarihinde yapılmıştır." if tarih else ""))
+            if len(yorumlar) > OZETTE_YORUM:
+                govde.append(f"    - ℹ️ Diğer {len(yorumlar) - OZETTE_YORUM} yoruma [hocanın kartından]({kart}) erişebilirsiniz.")
+            onek = "" if yorumlar else "Henüz yorum yok. "
+            govde.append(f"    - ✍️ {onek}Siz de [linkten]({link}) bu hoca hakkında anonim şekilde görüşlerinizi belirtebilirsiniz.")
+    govde.append("")
+    blok = "\n".join(govde) + "\n"
+    i = metin.find("## 🤝 Katkıda Bulun")
+    return metin[:i] + blok + metin[i:] if i >= 0 else metin.rstrip("\n") + "\n\n" + blok
+
+
+def ders_blogu(metin, ders, veri, f, ozet):
+    oylar, ders_yorum, _ = veri
+    metin, _ = blok_degistir(metin, YILDIZ, yildiz_satirlari(ders, oylar, f))
+    m = YILDIZ.search(metin)
+    if m and not GORUS.search(metin):  # görüş bölümü yoksa yıldız bloğunun hemen altına aç
+        i = blok_sonu(metin, m)
+        metin = metin[:i] + f"{m.group(1)}- 💬 **Öğrenci Görüşleri:**\n{m.group(1)}    - .\n" + metin[i:]
+    link = url(f["ders_yorumlama"], "ders_alani", ders)
+    satirlar = gorus_satirlari(ders_yorum.get(ders, []), link,
+                               OZETTE_YORUM if ozet else None, "dersin kendi klasöründen")
+    metin, _ = blok_degistir(metin, GORUS, satirlar)
+    return metin
+
+
+def hoca_blogu(metin, hoca, veri, f):
+    metin = re.sub(r"^( *)- ⭐ \*\*Yıldız Sayıları:\*\*\n(?:\1 +.*\n)*", "", metin, flags=re.M)
+    link = url(f["hoca_yorumlama"], "hoca_alani", hoca)
+    metin, _ = blok_degistir(metin, GORUS, gorus_satirlari(veri[2].get(unvansiz(hoca), []), link))
+    return metin
+
+
+def bloklara_bol(t, desen):
+    """Metni [(None, baştaki metin), (başlık eşleşmesi, başlıktan sonrakine kadar metin), ...] olarak böler."""
+    bas = list(re.finditer(desen, t, flags=re.M))
+    if not bas:
+        return [(None, t)]
+    sonuc = [(None, t[:bas[0].start()])]
+    for j, m in enumerate(bas):
+        bitis = bas[j + 1].start() if j + 1 < len(bas) else len(t)
+        sonuc.append((m, t[m.start():bitis]))
+    return sonuc
+
+
+def ust_linkler(t, f):
+    t = re.sub(r"- \[✍️ \*\*Hocalar için yorum linki\*\*\]\([^)]*\)",
+               f"- [✍️ **Hocalar için yorum linki**]({url(f['hoca_yorumlama'])})", t)
+    t = re.sub(r"- \[⭐ \*\*Hocalar için yıldız linki\*\*\]\([^)]*\)\n", "", t)
+    t = re.sub(r"- \[✍️ \*\*Dersler için yorum linki\*\*\]\([^)]*\)",
+               f"- [✍️ **Dersler için yorum linki**]({url(f['ders_yorumlama'])})", t)
+    t = re.sub(r"- \[⭐ \*\*Dersler için (?:yıldız|oylama) linki\*\*\]\([^)]*\)",
+               f"- [⭐ **Dersler için oylama linki**]({url(f['ders_oylama'])})", t)
+    return t
+
+
+def main():
+    konf = json.load(open(KONF, encoding="utf-8"))
+    f = konf["formlar"]
+    try:
+        veri = veri_topla(f)
+    except Exception as e:  # CSV'ler okunamazsa mevcut README'lere dokunma
+        print("⚠️ Form cevapları okunamadı, README'ler değiştirilmedi:", e)
+        sys.exit(0)
+    with open(DONEMLER_JSON, encoding="utf-8") as d:
+        dj = json.load(d)
+    donemler = [x["klasor"] for x in dj["donemler"]]
+    havuzlar = [h["klasor"] for h in dj.get("havuzlar", [])]
+    hocalar = {h["ad"] for h in json.load(open(".github/json_dosyalari/hocalar.json", encoding="utf-8"))["hocalar"]}
+    kok = open("README.md", encoding="utf-8").read()
+    kart_emoji = {ad.strip(): e for e, ad in re.findall(r"^#### (\S+) (.+?) $", kok, flags=re.M) if e != "📘"}
+    dosyalar = subprocess.run(["git", "-c", "core.quotepath=off", "ls-files", "*README.md"],
+                              capture_output=True, text=True, check=True).stdout.split("\n")
+    degisen = 0
+    for yol in filter(None, dosyalar):
+        t = open(yol, encoding="utf-8").read()
+        parca = yol.split("/")
+        if len(parca) == 3 and parca[0] in donemler + havuzlar:  # ders sayfası: tüm yorumlar
+            yeni = hoca_bolumu(ders_blogu(t, parca[1], veri, f, ozet=False), veri, f, hocalar, kart_emoji)
+        elif len(parca) == 2 and parca[0] in donemler:  # dönem sayfası: "### 📘 Ders" blokları
+            yeni = "".join(ders_blogu(b, m.group(1).strip(), veri, f, ozet=True) if m else b
+                           for m, b in bloklara_bol(t, r"^### 📘 (.+?)\s*$"))
+        elif yol == "README.md":
+            parcalar = []
+            for m, b in bloklara_bol(t, r"^#### (\S+) (.+?) $"):
+                if m and m.group(1) == "📘":
+                    km = re.search(r"📂 \[Ders Klasörü\]\(\./([^)]*)\)", b)
+                    ders = urllib.parse.unquote(km.group(1)).split("/", 1)[1] if km else m.group(2)
+                    b = ders_blogu(b, ders, veri, f, ozet=True)
+                elif m and m.group(2) in hocalar:
+                    b = hoca_blogu(b, m.group(2), veri, f)
+                parcalar.append(b)
+            yeni = ust_linkler("".join(parcalar), f)
+        else:
+            continue
+        if yeni != t:
+            open(yol, "w", encoding="utf-8").write(yeni)
+            degisen += 1
+    oy, dy, hy = veri
+    print(f"güncellenen README: {degisen} | oylanan ders: {len(oy)} | onaylı ders yorumu: "
+          f"{sum(map(len, dy.values()))} | onaylı hoca yorumu: {sum(map(len, hy.values()))}")
+
+
+if __name__ == "__main__":
+    main()

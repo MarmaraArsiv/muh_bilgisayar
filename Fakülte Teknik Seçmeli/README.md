@@ -1,0 +1,40 @@
+# 📚 Fakülte Teknik Seçmeli
+
+
+
+## 📋 Ders Listesi
+
+
+- 📘 [Advanced Innovative Design Management for Entrepreneurship](./Advanced%20Innovative%20Design%20Management%20for%20Entrepreneurship/)
+- 📘 [Automotive Engineering](./Automotive%20Engineering/)
+- 📘 [Business Management for Engineers](./Business%20Management%20for%20Engineers/)
+- 📘 [Chemical Engineering for Sustainable Biosphere](./Chemical%20Engineering%20for%20Sustainable%20Biosphere/)
+- 📘 [Construction Materials for Environmental Engineering](./Construction%20Materials%20for%20Environmental%20Engineering/)
+- 📘 [Control Systems](./Control%20Systems/)
+- 📘 [Cost Management in Chemical Industries](./Cost%20Management%20in%20Chemical%20Industries/)
+- 📘 [Design of Experiments](./Design%20of%20Experiments/)
+- 📘 [Designing Quality Products](./Designing%20Quality%20Products/)
+- 📘 [Energy and the Environment](./Energy%20and%20the%20Environment/)
+- 📘 [Entrepreneurship with Open-Source ERP Systems](./Entrepreneurship%20with%20Open-Source%20ERP%20Systems/)
+- 📘 [Financial Engineering](./Financial%20Engineering/)
+- 📘 [From Waste to Value: Circular Economy Applications](./From%20Waste%20to%20Value%20-%20Circular%20Economy%20Applications/)
+- 📘 [Innovation and New Product Development Management](./Innovation%20and%20New%20Product%20Development%20Management/)
+- 📘 [Instrumental Analysis for Engineers](./Instrumental%20Analysis%20for%20Engineers/)
+- 📘 [Interdisciplinary Engineering Practices in Modern Systems](./Interdisciplinary%20Engineering%20Practices%20in%20Modern%20Systems/)
+- 📘 [Introduction to Image Processing](./Introduction%20to%20Image%20Processing/)
+- 📘 [Introduction to Information Systems Management](./Introduction%20to%20Information%20Systems%20Management/)
+- 📘 [Introduction to Robotics](./Introduction%20to%20Robotics/)
+- 📘 [Introduction to Total Quality Management](./Introduction%20to%20Total%20Quality%20Management/)
+- 📘 [Managing Engineering and Technology](./Managing%20Engineering%20and%20Technology/)
+- 📘 [Materials Engineering Economics and Plant Design](./Materials%20Engineering%20Economics%20and%20Plant%20Design/)
+- 📘 [Mathematical Modeling in Mechanical Engineering](./Mathematical%20Modeling%20in%20Mechanical%20Engineering/)
+- 📘 [Mechatronics](./Mechatronics/)
+- 📘 [Micro Electro Mechanical Systems](./Micro%20Electro%20Mechanical%20Systems/)
+- 📘 [Planning and Management of Research](./Planning%20and%20Management%20of%20Research/)
+- 📘 [Project Management for Engineers](./Project%20Management%20for%20Engineers/)
+- 📘 [Renewable Energy Utilization](./Renewable%20Energy%20Utilization/)
+- 📘 [Simulation for Engineering Systems](./Simulation%20for%20Engineering%20Systems/)
+- 📘 [Survey Design and Measure Development](./Survey%20Design%20and%20Measure%20Development/)
+- 📘 [Sustainable Innovation and Circular Economy](./Sustainable%20Innovation%20and%20Circular%20Economy/)
+- 📘 [Total Quality Management in Materials Engineering](./Total%20Quality%20Management%20in%20Materials%20Engineering/)
+- 📘 [Quality Management System in Automotive Industry](./Quality%20Management%20System%20in%20Automotive%20Industry/)

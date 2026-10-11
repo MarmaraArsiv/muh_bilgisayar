@@ -1,0 +1,1304 @@
+{
+    "bolum_adi": "Hocalar",
+    "bolum_aciklamasi": "📚 Bu bölüm, Marmara Üniversitesi Mühendislik Fakültesi Bilgisayar Mühendisliği bölümündeki hocaların detaylı bilgilerini içerir. Hocaların adları, ofis bilgileri, araştırma sayfalarının bağlantıları ve verdikleri bazı dersler bu bölümde listelenmektedir. Hocaların puanlamaları tamamen subjektiftir ve 0-10 yıldız arasında yapılmıştır.",
+    "gruplar": [
+        {
+            "ad": "Profesörler",
+            "aciklama": ""
+        },
+        {
+            "ad": "Doçentler",
+            "aciklama": ""
+        },
+        {
+            "ad": "Doktor Öğretim Üyeleri",
+            "aciklama": ""
+        },
+        {
+            "ad": "Öğretim Görevlileri",
+            "aciklama": ""
+        },
+        {
+            "ad": "Araştırma Görevlileri",
+            "aciklama": ""
+        },
+        {
+            "ad": "Diğer Bölümlerden Ders Veren Hocalar",
+            "aciklama": "Bölüme servis dersi (Fizik, Matematik, Kimya, Türk Dili, İngilizce vb.) veren, başka bölümlerden gelen hocalar."
+        },
+        {
+            "ad": "Önceki Yıllarda Ders Veren Hocalar",
+            "aciklama": "Son iki akademik yılda bölümde dersi görünmeyen hocalar."
+        }
+    ],
+    "hocalar": [
+        {
+            "ad": "Prof. Dr. Ahu Altınkut Uncuoğlu",
+            "kisaltma": "AAU",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Planning and Management of Research"
+            ]
+        },
+        {
+            "ad": "Prof. Dr. Ali Fuat Alkaya",
+            "kisaltma": "AFA",
+            "grup": "Profesörler",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Computer Programming 2",
+                "Linear Algebra for Computer Engineering",
+                "Discrete Computational Structures",
+                "Numerical Methods",
+                "Operations Research",
+                "Engineering Project 1",
+                "Engineering Project 2",
+                "Grafik Teorisi ve Uygulamaları",
+                "Mobile Device Programming"
+            ]
+        },
+        {
+            "ad": "Doç. Dr. Ali Haydar Özer",
+            "kisaltma": "AHÖ",
+            "grup": "Doçentler",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Operating Systems",
+                "Formal Languages and Automata Theory",
+                "Engineering Project 1",
+                "Engineering Project 2",
+                "Artificial Intelligence"
+            ]
+        },
+        {
+            "ad": "Dr. Aykut Akalın",
+            "kisaltma": "AA",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Design, Innovation and Entrepreneurship",
+                "Introduction to Corporate Governance for Engineers"
+            ]
+        },
+        {
+            "ad": "Dr. Öğretim Üyesi Ayşe Ayçim Selam",
+            "kisaltma": "AAS",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Survey Design and Measure Development",
+                "World Cultures"
+            ]
+        },
+        {
+            "ad": "Dr. Ayşe Bengi Özlüarda Hamarat",
+            "kisaltma": "ABÖH",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": false,
+            "dersler": [
+                "Engineering Economy"
+            ]
+        },
+        {
+            "ad": "Öğr. Gör. Dr. Ayşe Hande Erol Bingüler",
+            "kisaltma": "AHEB",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "İş Sağlığı ve Güvenliği 1",
+                "İş Sağlığı ve Güvenliği 2"
+            ]
+        },
+        {
+            "ad": "Öğr. Gör. Aytün Alakuş",
+            "kisaltma": "AALA",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": null,
+            "dersler": [
+                "Brand Creation/Branding"
+            ]
+        },
+        {
+            "ad": "Prof. Dr. Bahar Sennaroğlu",
+            "kisaltma": "BS",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Simulation for Engineering Systems"
+            ]
+        },
+        {
+            "ad": "Öğr. Gör. Bahtiyar Çetin Filiz",
+            "kisaltma": "BÇF",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "German for Beginners"
+            ]
+        },
+        {
+            "ad": "Dr. Başak Ataş Erden",
+            "kisaltma": "BAE",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Introduction to Modern Biology"
+            ]
+        },
+        {
+            "ad": "Dr. Berna Balta",
+            "kisaltma": "BB",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Design of Experiments"
+            ]
+        },
+        {
+            "ad": "Doç. Dr. Beste Çalımlıoğlu",
+            "kisaltma": "BÇ",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": false,
+            "dersler": [
+                "Introduction to Modern Biology"
+            ]
+        },
+        {
+            "ad": "Doç. Dr. Betül Boz",
+            "kisaltma": "BBOZ",
+            "grup": "Doçentler",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Systems Programming",
+                "Digital Logic Design",
+                "Engineering Project 1",
+                "Engineering Project 2",
+                "Introduction to Computational Genomics"
+            ]
+        },
+        {
+            "ad": "Prof. Dr. Beytullah Gültekin Çetiner",
+            "kisaltma": "BGÇ",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Advanced Innovative Design Management for Entrepreneurship",
+                "Entrepreneurship with Open-Source ERP Systems",
+                "Design, Innovation and Entrepreneurship"
+            ]
+        },
+        {
+            "ad": "Dr. Cahit Köse",
+            "kisaltma": "CK",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Organizational Behaviour"
+            ]
+        },
+        {
+            "ad": "Dr. Öğretim Üyesi Canan Ağlan Gökler",
+            "kisaltma": "CAG",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": false,
+            "dersler": [
+                "Operations Research"
+            ]
+        },
+        {
+            "ad": "Doç. Dr. Caner Değer",
+            "kisaltma": "CD",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Physics 1",
+                "Physics 2"
+            ]
+        },
+        {
+            "ad": "Dr. Caner Dilmener",
+            "kisaltma": "CDİL",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Marketing in a Technology Driven world for Engineers"
+            ]
+        },
+        {
+            "ad": "Doç. Dr. Cansu Avcı",
+            "kisaltma": "CA",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "French for Beginners"
+            ]
+        },
+        {
+            "ad": "Prof. Dr. Cumali Tav",
+            "kisaltma": "CT",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Physics 2"
+            ]
+        },
+        {
+            "ad": "Prof. Dr. Çiğdem Eroğlu Erdem",
+            "kisaltma": "ÇEE",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": false,
+            "dersler": [
+                "Electric Circuits",
+                "Numerical Methods",
+                "Introduction to Machine Learning",
+                "Engineering Project 1",
+                "Engineering Project 2",
+                "Introduction to Deep Learning",
+                "Multimedia Systems"
+            ]
+        },
+        {
+            "ad": "Dr. Deniz Öner",
+            "kisaltma": "DÖ",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": null,
+            "dersler": [
+                "The Culture of Radiation Safety"
+            ]
+        },
+        {
+            "ad": "Prof. Dr. Dursun Üstündağ",
+            "kisaltma": "DÜ",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Calculus 2"
+            ]
+        },
+        {
+            "ad": "Dr. Emin Ercan Cihan",
+            "kisaltma": "EEC",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Introduction to Business World for Engineers"
+            ]
+        },
+        {
+            "ad": "Dr. Engin Yılmaz",
+            "kisaltma": "EY",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Basic Principles of Accessibility in Informatics and Technology"
+            ]
+        },
+        {
+            "ad": "Dr. Eren Yıldız Geyhan",
+            "kisaltma": "EYG",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": null,
+            "dersler": [
+                "Engineering Economy"
+            ]
+        },
+        {
+            "ad": "Prof. Dr. Fatih Dumludağ",
+            "kisaltma": "FD",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Physics 1",
+                "Physics 2"
+            ]
+        },
+        {
+            "ad": "Dr. Öğretim Üyesi Fatma Corut Ergin",
+            "kisaltma": "FCE",
+            "grup": "Doktor Öğretim Üyeleri",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Introduction to Computer Engineering",
+                "Systems Programming",
+                "Principles of Programming Languages",
+                "Engineering Project 1",
+                "Engineering Project 2",
+                "Advanced Data Structures",
+                "Special Topics in Computer Engineering 2"
+            ]
+        },
+        {
+            "ad": "Dr. Öğretim Üyesi Fatma Ece Altınışık Kaya",
+            "kisaltma": "FEAK",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Introduction to Modern Biology"
+            ]
+        },
+        {
+            "ad": "Öğr. Gör. Fatma Feyza Başaran",
+            "kisaltma": "FFB",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Communication Models and Techniques"
+            ]
+        },
+        {
+            "ad": "Dr. Öğretim Üyesi Feyza Uçkun",
+            "kisaltma": "FU",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Chinese 1",
+                "Chinese 2",
+                "Chinese 3"
+            ]
+        },
+        {
+            "ad": "Doç. Dr. Fulya Çallıalp",
+            "kisaltma": "FÇ",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": false,
+            "dersler": [
+                "Electric Circuits",
+                "Electronics"
+            ]
+        },
+        {
+            "ad": "Öğr. Gör. Funda Gökçe Bağcı",
+            "kisaltma": "FGB",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": false,
+            "dersler": [
+                "Türk Dili 1",
+                "Türk Dili 2"
+            ]
+        },
+        {
+            "ad": "Dr. Goshgar Can İsmayılov",
+            "kisaltma": "GCİ",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Introduction to Blockchain Programming"
+            ]
+        },
+        {
+            "ad": "Prof. Dr. Gökhan Bora Esmer",
+            "kisaltma": "GBE",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Introduction to Image Processing"
+            ]
+        },
+        {
+            "ad": "Dr. Öğretim Üyesi Görkem Yumuşak",
+            "kisaltma": "GY",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": null,
+            "dersler": [
+                "Materials Engineering Economics and Plant Design"
+            ]
+        },
+        {
+            "ad": "Öğr. Gör. Gülizar Semra Özkurt",
+            "kisaltma": "GSÖ",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "German",
+                "German Communication",
+                "German for Beginners"
+            ]
+        },
+        {
+            "ad": "Prof. Dr. Haluk Küçük",
+            "kisaltma": "HK",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Differential Equations"
+            ]
+        },
+        {
+            "ad": "Prof. Dr. Haluk Rahmi Topcuoğlu",
+            "kisaltma": "HRT",
+            "grup": "Profesörler",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Computer Organization",
+                "Engineering Project 1",
+                "Engineering Project 2"
+            ]
+        },
+        {
+            "ad": "Prof. Dr. Hande Sinem Ergun",
+            "kisaltma": "HSE",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Technical Communications and Entrepreneurship",
+                "Career Development",
+                "Entrepreneurship and Innovation",
+                "Strategic Entrepreneurship"
+            ]
+        },
+        {
+            "ad": "Dr. Hayriye Ebru Oydağ",
+            "kisaltma": "HEO",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": false,
+            "dersler": [
+                "Introduction to Finance for Engineers"
+            ]
+        },
+        {
+            "ad": "Öğr. Gör. Hülya Aslanoğlu",
+            "kisaltma": "HA",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Innovation and New Product Development Management",
+                "Sustainable Innovation and Circular Economy",
+                "Entrepreneurship and Innovation",
+                "Sustainability Management"
+            ]
+        },
+        {
+            "ad": "Öğr. Gör. Hülya Özler",
+            "kisaltma": "HÖ",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Atatürk İlkeleri ve İnkılap Tarihi 1",
+                "Atatürk İlkeleri ve İnkılap Tarihi 2"
+            ]
+        },
+        {
+            "ad": "Dr. Hüseyin Ergün",
+            "kisaltma": "HE",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Introduction to Blockchain Programming",
+                "Special Topics in Computer Engineering 1"
+            ]
+        },
+        {
+            "ad": "Arş. Gör. Hüseyin Yaltırık",
+            "kisaltma": "HY",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Physics Lab. 1",
+                "Physics Lab. 2"
+            ]
+        },
+        {
+            "ad": "Doç. Dr. İbrahim Sina Kuseyri",
+            "kisaltma": "İSK",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Control Systems"
+            ]
+        },
+        {
+            "ad": "Dr. Öğretim Üyesi Kamil Erdayandı",
+            "kisaltma": "KE",
+            "grup": "Doktor Öğretim Üyeleri",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Electric Circuits",
+                "Numerical Methods",
+                "Electronics",
+                "Engineering Project 1",
+                "Engineering Project 2",
+                "Çoklu Ajan Sistemleri",
+                "Special Topics in Computer Engineering 3"
+            ]
+        },
+        {
+            "ad": "Doç. Dr. Kurtul Küçükada",
+            "kisaltma": "KK",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Cost Management in Chemical Industries"
+            ]
+        },
+        {
+            "ad": "Dr. Öğretim Üyesi Mahmure Övül Arıoğlu",
+            "kisaltma": "MÖA",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Introduction to Total Quality Management"
+            ]
+        },
+        {
+            "ad": "Doç. Dr. Mahmut Kertil",
+            "kisaltma": "MK",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Calculus 1",
+                "Calculus 2"
+            ]
+        },
+        {
+            "ad": "Dr. Öğretim Üyesi Makbule Tamkaş",
+            "kisaltma": "MT",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Physics 1",
+                "Physics 2"
+            ]
+        },
+        {
+            "ad": "Doç. Dr. Mehmed Rafet Özdemir",
+            "kisaltma": "MRÖ",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Renewable Energy Utilization"
+            ]
+        },
+        {
+            "ad": "Doç. Dr. Mehmet Fatih Karaaslan",
+            "kisaltma": "MFK",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Calculus 2"
+            ]
+        },
+        {
+            "ad": "Dr. Öğretim Üyesi Mehmet Kadir Baran",
+            "kisaltma": "MKB",
+            "grup": "Doktor Öğretim Üyeleri",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Differential Equations",
+                "Introduction to Signals and Systems",
+                "Introduction to Machine Learning",
+                "Engineering Project 1",
+                "Engineering Project 2",
+                "Computer Graphics",
+                "Introduction to Deep Learning",
+                "Introduction to Robotics and Control Theory",
+                "Microprocessors"
+            ]
+        },
+        {
+            "ad": "Dr. Öğretim Üyesi Mohammad Abdulaziz H Alsunaidi",
+            "kisaltma": "MAHA",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Arabic for Beginners"
+            ]
+        },
+        {
+            "ad": "Doç. Dr. Murat Can Ganiz",
+            "kisaltma": "MCG",
+            "grup": "Doçentler",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Data Structures",
+                "Object-Oriented Software Design",
+                "Introduction to Machine Learning",
+                "Engineering Project 1",
+                "Engineering Project 2",
+                "Introduction to Data Science and Analytics",
+                "Introduction to Natural Language Processing",
+                "Sosyal Ağ Analizi",
+                "Special Topics in Computer Engineering 3"
+            ]
+        },
+        {
+            "ad": "Doç. Dr. Mustafa Ağaoğlu",
+            "kisaltma": "MA",
+            "grup": "Doçentler",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Computer Programming 1",
+                "Computer Programming 2",
+                "Discrete Computational Structures",
+                "Database Systems",
+                "Operations Research",
+                "Engineering Project 1",
+                "Engineering Project 2",
+                "Fundamentals of Data Mining"
+            ]
+        },
+        {
+            "ad": "Prof. Dr. Mustafa Alevli",
+            "kisaltma": "MALE",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Physics 1",
+                "Physics 2"
+            ]
+        },
+        {
+            "ad": "Prof. Dr. Mustafa Borahan Tümer",
+            "kisaltma": "MBT",
+            "grup": "Profesörler",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Data Structures",
+                "Software Engineering",
+                "Engineering Project 1",
+                "Engineering Project 2",
+                "Special Topics in Computer Engineering 1"
+            ]
+        },
+        {
+            "ad": "Arş. Gör. Dr. Mustafa Cem Çelik",
+            "kisaltma": "MCÇ",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Calculus 1",
+                "Calculus 2"
+            ]
+        },
+        {
+            "ad": "Dr. Mustafa Tuysuz",
+            "kisaltma": "MTUY",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Fundamentals of Management",
+                "Organizational Behaviour"
+            ]
+        },
+        {
+            "ad": "Prof. Dr. Mustafa Yılmaz",
+            "kisaltma": "MY",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Differential Equations",
+                "İş Sağlığı ve Güvenliği 1",
+                "İş Sağlığı ve Güvenliği 2"
+            ]
+        },
+        {
+            "ad": "Doç. Dr. Müjdat Soytürk",
+            "kisaltma": "MS",
+            "grup": "Doçentler",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Probability and Statistics for Computer Engineering",
+                "Modeling and Discrete Simulation",
+                "Engineering Project 1",
+                "Engineering Project 2",
+                "Wireless and Mobile Networks"
+            ]
+        },
+        {
+            "ad": "Prof. Dr. M. Nureddin Türkan",
+            "kisaltma": "MNT",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Calculus 1",
+                "Calculus 2",
+                "Linear Algebra for Computer Engineering",
+                "Differential Equations"
+            ]
+        },
+        {
+            "ad": "Dr. Öğretim Üyesi Naoki Yamamoto",
+            "kisaltma": "NY",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Japanese 1",
+                "Japanese 2"
+            ]
+        },
+        {
+            "ad": "Öğr. Gör. Dr. Nurgül Yıldız",
+            "kisaltma": "NYIL",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Türk Dili 1",
+                "Türk Dili 2"
+            ]
+        },
+        {
+            "ad": "Dr. Öğretim Üyesi Oğuzhan Ceylan",
+            "kisaltma": "OC",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Electronics"
+            ]
+        },
+        {
+            "ad": "Doç. Dr. Ömer Korçak",
+            "kisaltma": "ÖK",
+            "grup": "Doçentler",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Analysis of Algorithms",
+                "Computer Networks",
+                "Engineering Project 1",
+                "Engineering Project 2",
+                "Information Systems Security"
+            ]
+        },
+        {
+            "ad": "Öğr. Gör. Özge Kanat",
+            "kisaltma": "ÖKAN",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": false,
+            "dersler": [
+                "Brand Creation/Branding"
+            ]
+        },
+        {
+            "ad": "Öğr. Gör. Özlem Yılmaz",
+            "kisaltma": "ÖY",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Business Management for Engineers",
+                "Introduction to Business World for Engineers",
+                "Introduction to Leadership & Management for Engineers",
+                "Introduction to Strategic Human Resources Management",
+                "Introduction to Strategy for Engineers"
+            ]
+        },
+        {
+            "ad": "Doç. Dr. Rosa Maria Flores Rangel",
+            "kisaltma": "RMFR",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Spanish",
+                "Spanish for Beginners"
+            ]
+        },
+        {
+            "ad": "Dr. Öğretim Üyesi Sanem Arslan Yılmaz",
+            "kisaltma": "SAY",
+            "grup": "Doktor Öğretim Üyeleri",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Computer Programming 1",
+                "Computer Programming 2",
+                "Principles of Embedded Systems Design",
+                "Engineering Project 1",
+                "Engineering Project 2",
+                "Advanced Unix Programming",
+                "Special Topics in Computer Engineering 3"
+            ]
+        },
+        {
+            "ad": "Öğr. Gör. Dr. Sebahattin Serhat Temizkan",
+            "kisaltma": "SST",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Engineering Economy"
+            ]
+        },
+        {
+            "ad": "Arş. Gör. Semih Ay",
+            "kisaltma": "SA",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Physics Lab. 1"
+            ]
+        },
+        {
+            "ad": "Öğr. Gör. Seray Yazıcıoğlu",
+            "kisaltma": "SY",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": false,
+            "dersler": [
+                "Türk Dili 1",
+                "Türk Dili 2"
+            ]
+        },
+        {
+            "ad": "Dr. Öğretim Üyesi Serkan Öğüt",
+            "kisaltma": "SÖ",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Calculus 2"
+            ]
+        },
+        {
+            "ad": "Dr. Servet Gözde Tutanç",
+            "kisaltma": "SGT",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Positive Thinking"
+            ]
+        },
+        {
+            "ad": "Prof. Dr. Sıddık Sinan Keskin",
+            "kisaltma": "SSK",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Energy and the Environment"
+            ]
+        },
+        {
+            "ad": "Doç. Dr. Sinan Çaya",
+            "kisaltma": "SÇ",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Behavioral Sciences for Engineers",
+                "Environmental Sociology",
+                "Health and Body Sociology",
+                "Industrial and Economic Sociology",
+                "Industrial Psychology",
+                "Sociology of Urban Life"
+            ]
+        },
+        {
+            "ad": "Dr. Sinan Emre Taşçi",
+            "kisaltma": "SET",
+            "grup": "Öğretim Görevlileri",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Special Topics in Computer Engineering 4"
+            ]
+        },
+        {
+            "ad": "Dr. Öğretim Üyesi Süheyp Öğüt",
+            "kisaltma": "SÖĞÜ",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Behavioral Sciences for Engineers",
+                "Industrial and Economic Sociology",
+                "Industrial Psychology"
+            ]
+        },
+        {
+            "ad": "Prof. Dr. Şahin Aktaş",
+            "kisaltma": "ŞA",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Physics 1"
+            ]
+        },
+        {
+            "ad": "Öğr. Gör. Şakir Bingöl",
+            "kisaltma": "ŞB",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Introduction to Information Systems Management"
+            ]
+        },
+        {
+            "ad": "Dr. Şebnem Öztürk",
+            "kisaltma": "ŞÖ",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": false,
+            "dersler": [
+                "Introduction to Modern Biology"
+            ]
+        },
+        {
+            "ad": "Doç. Dr. Tayfun Akyürek",
+            "kisaltma": "TA",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Physics 1",
+                "Physics 2"
+            ]
+        },
+        {
+            "ad": "Öğr. Gör. Turgay Özbek",
+            "kisaltma": "TÖ",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Technical Communications and Entrepreneurship",
+                "Introduction to Angel Financing for Engineers",
+                "Introduction to Finance for Engineers"
+            ]
+        },
+        {
+            "ad": "Doç. Dr. Uğur Tümerdem",
+            "kisaltma": "UT",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Introduction to Robotics"
+            ]
+        },
+        {
+            "ad": "Öğr. Gör. Ünsal Atasoy",
+            "kisaltma": "ÜA",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": true,
+            "dersler": [
+                "Project Management for Engineers"
+            ]
+        },
+        {
+            "ad": "Prof. Dr. Yasemin Asu Çırpıcı",
+            "kisaltma": "YAÇ",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Engineering Economy"
+            ]
+        },
+        {
+            "ad": "Öğr. Gör. Dr. Yasemin Bulut",
+            "kisaltma": "YB",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": false,
+            "dersler": [
+                "Türk Dili 1",
+                "Türk Dili 2"
+            ]
+        },
+        {
+            "ad": "Dr. Öğretim Üyesi Yunus Dursun",
+            "kisaltma": "YD",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": true,
+            "dersler": [
+                "Electric Circuits"
+            ]
+        },
+        {
+            "ad": "Doç. Dr. Zeynep Arkan",
+            "kisaltma": "ZA",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Arabic for Beginners"
+            ]
+        },
+        {
+            "ad": "Öğr. Gör. Zeynep Yılmaz",
+            "kisaltma": "ZY",
+            "grup": "Önceki Yıllarda Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": false,
+            "erkek_mi": false,
+            "dersler": [
+                "Differential Equations"
+            ]
+        },
+        {
+            "ad": "Arş. Gör. Dr. Zuhal Öztürk",
+            "kisaltma": "ZÖ",
+            "grup": "Diğer Bölümlerden Ders Veren Hocalar",
+            "ofis": "",
+            "link": "",
+            "hoca_aktif_gorevde_mi": true,
+            "erkek_mi": false,
+            "dersler": [
+                "Physics Lab. 2"
+            ]
+        }
+    ]
+}
