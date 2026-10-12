@@ -1168,7 +1168,8 @@ Elinde bu derslerden materyal varsa yukarıdaki **🤝 Katkıda Bulunun** bölü
   - ⭐ **Yıldız Sayıları:**
       - ℹ️ Henüz yıldız veren yok. Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLSeBBxR1BHLJmMdIZ9-EEAjqcfpt47G47KdSNDcDXhdBRLjSww/viewform?usp=pp_url&entry.965309065=Automotive%20Engineering) anonim şekilde oylamaya katılabilirsiniz.
   - 💬 **Öğrenci Görüşleri:**
-      - ℹ️ Henüz yorum yok. Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLScu9nj_5qL5cRNtkkgvvHWk0xXZQg_gD07m3BV5C2xEAqjNFA/viewform?usp=pp_url&entry.1887244155=Automotive%20Engineering) anonim şekilde görüşlerinizi belirtebilirsiniz.
+      - 👤 **_test1_**: test1 ℹ️ Yorum **10.2026** tarihinde yapılmıştır.
+        - ℹ️ Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLScu9nj_5qL5cRNtkkgvvHWk0xXZQg_gD07m3BV5C2xEAqjNFA/viewform?usp=pp_url&entry.1887244155=Automotive%20Engineering) anonim şekilde görüşlerinizi belirtebilirsiniz.
   - 📂 [Ders Klasörü](./Fak%C3%BClte%20Teknik%20Se%C3%A7meli/Automotive%20Engineering)
 
 #### 📘 Business Management for Engineers 
