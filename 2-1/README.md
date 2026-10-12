@@ -12,9 +12,9 @@
 - 🏫 **Ders Tipi:** Zorunlu
 - 🏷️ **Müfredat:** Güncel Müfredat
 - ⭐ **Yıldız Sayıları:**
-    - ℹ️ Henüz yıldız veren yok.
+    - ℹ️ Henüz yıldız veren yok. Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLSeBBxR1BHLJmMdIZ9-EEAjqcfpt47G47KdSNDcDXhdBRLjSww/viewform?usp=pp_url&entry.965309065=Discrete%20Computational%20Structures) anonim şekilde oylamaya katılabilirsiniz.
 - 💬 **Öğrenci Görüşleri:**
-    - ℹ️ Henüz yorum yok.
+    - ℹ️ Henüz yorum yok. Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLScu9nj_5qL5cRNtkkgvvHWk0xXZQg_gD07m3BV5C2xEAqjNFA/viewform?usp=pp_url&entry.1887244155=Discrete%20Computational%20Structures) anonim şekilde görüşlerinizi belirtebilirsiniz.
 
 #### 👨‍🏫 👩‍🏫 Dersi Yürüten Akademisyenler:
 - **2026-2027**:
@@ -39,9 +39,9 @@
 - 🏫 **Ders Tipi:** Zorunlu
 - 🏷️ **Müfredat:** Güncel Müfredat
 - ⭐ **Yıldız Sayıları:**
-    - ℹ️ Henüz yıldız veren yok.
+    - ℹ️ Henüz yıldız veren yok. Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLSeBBxR1BHLJmMdIZ9-EEAjqcfpt47G47KdSNDcDXhdBRLjSww/viewform?usp=pp_url&entry.965309065=Data%20Structures) anonim şekilde oylamaya katılabilirsiniz.
 - 💬 **Öğrenci Görüşleri:**
-    - ℹ️ Henüz yorum yok.
+    - ℹ️ Henüz yorum yok. Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLScu9nj_5qL5cRNtkkgvvHWk0xXZQg_gD07m3BV5C2xEAqjNFA/viewform?usp=pp_url&entry.1887244155=Data%20Structures) anonim şekilde görüşlerinizi belirtebilirsiniz.
 
 #### 👨‍🏫 👩‍🏫 Dersi Yürüten Akademisyenler:
 - **2026-2027**:
@@ -68,9 +68,9 @@
 - 🏫 **Ders Tipi:** Zorunlu
 - 🏷️ **Müfredat:** Güncel Müfredat
 - ⭐ **Yıldız Sayıları:**
-    - ℹ️ Henüz yıldız veren yok.
+    - ℹ️ Henüz yıldız veren yok. Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLSeBBxR1BHLJmMdIZ9-EEAjqcfpt47G47KdSNDcDXhdBRLjSww/viewform?usp=pp_url&entry.965309065=Engineering%20Economy) anonim şekilde oylamaya katılabilirsiniz.
 - 💬 **Öğrenci Görüşleri:**
-    - ℹ️ Henüz yorum yok.
+    - ℹ️ Henüz yorum yok. Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLScu9nj_5qL5cRNtkkgvvHWk0xXZQg_gD07m3BV5C2xEAqjNFA/viewform?usp=pp_url&entry.1887244155=Engineering%20Economy) anonim şekilde görüşlerinizi belirtebilirsiniz.
 
 #### 👨‍🏫 👩‍🏫 Dersi Yürüten Akademisyenler:
 - **2026-2027**:
@@ -96,9 +96,9 @@
 - 🏫 **Ders Tipi:** Zorunlu
 - 🏷️ **Müfredat:** Güncel Müfredat
 - ⭐ **Yıldız Sayıları:**
-    - ℹ️ Henüz yıldız veren yok.
+    - ℹ️ Henüz yıldız veren yok. Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLSeBBxR1BHLJmMdIZ9-EEAjqcfpt47G47KdSNDcDXhdBRLjSww/viewform?usp=pp_url&entry.965309065=Electric%20Circuits) anonim şekilde oylamaya katılabilirsiniz.
 - 💬 **Öğrenci Görüşleri:**
-    - ℹ️ Henüz yorum yok.
+    - ℹ️ Henüz yorum yok. Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLScu9nj_5qL5cRNtkkgvvHWk0xXZQg_gD07m3BV5C2xEAqjNFA/viewform?usp=pp_url&entry.1887244155=Electric%20Circuits) anonim şekilde görüşlerinizi belirtebilirsiniz.
 
 #### 👨‍🏫 👩‍🏫 Dersi Yürüten Akademisyenler:
 - **2026-2027**:
@@ -123,9 +123,9 @@
 - 🏫 **Ders Tipi:** Zorunlu
 - 🏷️ **Müfredat:** Güncel Müfredat
 - ⭐ **Yıldız Sayıları:**
-    - ℹ️ Henüz yıldız veren yok.
+    - ℹ️ Henüz yıldız veren yok. Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLSeBBxR1BHLJmMdIZ9-EEAjqcfpt47G47KdSNDcDXhdBRLjSww/viewform?usp=pp_url&entry.965309065=Differential%20Equations) anonim şekilde oylamaya katılabilirsiniz.
 - 💬 **Öğrenci Görüşleri:**
-    - ℹ️ Henüz yorum yok.
+    - ℹ️ Henüz yorum yok. Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLScu9nj_5qL5cRNtkkgvvHWk0xXZQg_gD07m3BV5C2xEAqjNFA/viewform?usp=pp_url&entry.1887244155=Differential%20Equations) anonim şekilde görüşlerinizi belirtebilirsiniz.
 
 #### 👨‍🏫 👩‍🏫 Dersi Yürüten Akademisyenler:
 - **2026-2027**:
@@ -152,9 +152,9 @@
 - 🏫 **Ders Tipi:** Zorunlu
 - 🏷️ **Müfredat:** Güncel Müfredat
 - ⭐ **Yıldız Sayıları:**
-    - ℹ️ Henüz yıldız veren yok.
+    - ℹ️ Henüz yıldız veren yok. Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLSeBBxR1BHLJmMdIZ9-EEAjqcfpt47G47KdSNDcDXhdBRLjSww/viewform?usp=pp_url&entry.965309065=Numerical%20Methods) anonim şekilde oylamaya katılabilirsiniz.
 - 💬 **Öğrenci Görüşleri:**
-    - ℹ️ Henüz yorum yok.
+    - ℹ️ Henüz yorum yok. Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLScu9nj_5qL5cRNtkkgvvHWk0xXZQg_gD07m3BV5C2xEAqjNFA/viewform?usp=pp_url&entry.1887244155=Numerical%20Methods) anonim şekilde görüşlerinizi belirtebilirsiniz.
 
 #### 👨‍🏫 👩‍🏫 Dersi Yürüten Akademisyenler:
 - **2026-2027**:
