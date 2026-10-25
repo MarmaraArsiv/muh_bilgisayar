@@ -100,17 +100,17 @@ döneme değişebilir, kesin ve güncel bilgi için bölüm/fakülte öğrenci i
 
 ## 📊 Arşiv Doluluk Durumu
 
-Arşivdeki **186** dersin **5** tanesinde en az bir materyal var (genel doluluk **%3**).
+Arşivdeki **186** dersin **6** tanesinde en az bir materyal var (genel doluluk **%3**).
 
 ```mermaid
 pie showData
-  "Materyali olan" : 5
-  "Henüz boş" : 181
+  "Materyali olan" : 6
+  "Henüz boş" : 180
 ```
 
 | Dönem | Doluluk | Materyali olan ders |
 |---|---|---|
-| [1. Yıl Güz](./1-1/) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ %0 | 0 / 8 |
+| [1. Yıl Güz](./1-1/) | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ %12 | 1 / 8 |
 | [1. Yıl Bahar](./1-2/) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ %0 | 0 / 7 |
 | [2. Yıl Güz](./2-1/) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ %0 | 0 / 6 |
 | [2. Yıl Bahar](./2-2/) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 %100 | 5 / 5 |
@@ -125,7 +125,7 @@ pie showData
 ### 🙋 Bu dersler katkını bekliyor
 Elinde bu derslerden materyal varsa yukarıdaki **🤝 Katkıda Bulunun** bölümüne göz at.
 
-- **1. Yıl Güz:** Atatürk İlkeleri ve İnkılap Tarihi 1, Calculus 1, Computer Programming 1, Introduction to Computer Engineering, Introduction to Modern Biology, Physics Lab. 1, Physics 1, Türk Dili 1
+- **1. Yıl Güz:** Atatürk İlkeleri ve İnkılap Tarihi 1, Calculus 1, Computer Programming 1, Introduction to Computer Engineering, Physics Lab. 1, Physics 1, Türk Dili 1
 - **1. Yıl Bahar:** Atatürk İlkeleri ve İnkılap Tarihi 2, Calculus 2, Computer Programming 2, Linear Algebra for Computer Engineering, Physics Lab. 2, Physics 2, Türk Dili 2
 - **2. Yıl Güz:** Data Structures, Differential Equations, Discrete Computational Structures, Electric Circuits, Engineering Economy, Numerical Methods
 - **3. Yıl Güz:** Database Systems, Digital Logic Design, Modeling and Discrete Simulation, Object-Oriented Software Design, Operating Systems, Summer Practice 1
