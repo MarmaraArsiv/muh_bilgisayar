@@ -100,12 +100,12 @@ döneme değişebilir, kesin ve güncel bilgi için bölüm/fakülte öğrenci i
 
 ## 📊 Arşiv Doluluk Durumu
 
-Arşivdeki **186** dersin **0** tanesinde en az bir materyal var (genel doluluk **%0**).
+Arşivdeki **186** dersin **1** tanesinde en az bir materyal var (genel doluluk **%1**).
 
 ```mermaid
 pie showData
-  "Materyali olan" : 0
-  "Henüz boş" : 186
+  "Materyali olan" : 1
+  "Henüz boş" : 185
 ```
 
 | Dönem | Doluluk | Materyali olan ders |
@@ -113,7 +113,7 @@ pie showData
 | [1. Yıl Güz](./1-1/) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ %0 | 0 / 8 |
 | [1. Yıl Bahar](./1-2/) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ %0 | 0 / 7 |
 | [2. Yıl Güz](./2-1/) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ %0 | 0 / 6 |
-| [2. Yıl Bahar](./2-2/) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ %0 | 0 / 5 |
+| [2. Yıl Bahar](./2-2/) | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ %20 | 1 / 5 |
 | [3. Yıl Güz](./3-1/) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ %0 | 0 / 6 |
 | [3. Yıl Bahar](./3-2/) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ %0 | 0 / 6 |
 | [4. Yıl Güz](./4-1/) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ %0 | 0 / 6 |
@@ -128,7 +128,7 @@ Elinde bu derslerden materyal varsa yukarıdaki **🤝 Katkıda Bulunun** bölü
 - **1. Yıl Güz:** Atatürk İlkeleri ve İnkılap Tarihi 1, Calculus 1, Computer Programming 1, Introduction to Computer Engineering, Introduction to Modern Biology, Physics Lab. 1, Physics 1, Türk Dili 1
 - **1. Yıl Bahar:** Atatürk İlkeleri ve İnkılap Tarihi 2, Calculus 2, Computer Programming 2, Linear Algebra for Computer Engineering, Physics Lab. 2, Physics 2, Türk Dili 2
 - **2. Yıl Güz:** Data Structures, Differential Equations, Discrete Computational Structures, Electric Circuits, Engineering Economy, Numerical Methods
-- **2. Yıl Bahar:** Analysis of Algorithms, Electronics, Principles of Programming Languages, Probability and Statistics for Computer Engineering, Systems Programming
+- **2. Yıl Bahar:** Analysis of Algorithms, Electronics, Principles of Programming Languages, Probability and Statistics for Computer Engineering
 - **3. Yıl Güz:** Database Systems, Digital Logic Design, Modeling and Discrete Simulation, Object-Oriented Software Design, Operating Systems, Summer Practice 1
 - **3. Yıl Bahar:** Computer Organization, Formal Languages and Automata Theory, Introduction to Signals and Systems, Operations Research, Software Engineering, Technical Communications and Entrepreneurship
 - **4. Yıl Güz:** Computer Networks, Engineering Project 1, Introduction to Machine Learning, İş Sağlığı ve Güvenliği 1, Principles of Embedded Systems Design, Summer Practice 2
