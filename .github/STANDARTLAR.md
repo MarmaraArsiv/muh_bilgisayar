@@ -63,6 +63,7 @@ Ders dizini **içindeki** tüm alt klasörler bu kurala uyar: tümü küçük ha
 | Sınavlar | `sınavlar` | `sınavlar/` |
 | Atölye ders notları | `atölye_notları` | `atölye_notları/` |
 | Atölye ödevleri | `atölye_ödevleri` | `atölye_ödevleri/` |
+| Kitaplar | `kitaplar` | `kitaplar/2024/` |
 
 ### 3.2 Birleşik Dizin Kuralları
 - `lablar_kodlar`: Hem lab hem kod içeren derslerde tek dizin, ayrı `lablar/`+`kodlar/` yerine tercih edilir.
