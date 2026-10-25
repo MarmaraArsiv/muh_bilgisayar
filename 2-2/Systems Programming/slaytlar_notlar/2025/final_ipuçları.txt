@@ -1,0 +1,24 @@
+Gecen sene bunlara benzer sorular sormus:
+
+
+how to use stack (procedure)
+
+buffer overflow, like all the problems and asked to fix them. 
+
+sTRUCTURES UNIONS
+
+Recursion
+
+Memory
+
+Direct mapped cache simulation example
+
+Example: core i7 l1 data cache
+
+Header, footer etc.
+
+Cache: (definitely one question)
+calculate miss hit locality or the examples above
+
+
+segregated explicit yok
