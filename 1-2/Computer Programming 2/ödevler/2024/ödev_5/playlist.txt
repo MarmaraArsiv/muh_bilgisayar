@@ -1,0 +1,45 @@
+
+The list in choronological order:
+	1.poker face 3:58
+	2.hotel california 7:58
+	3.englishman in newyork 4:28
+	4.every breath you take 3:56
+	5.shape of my heart 4:33
+	6.back to black 4:17
+	7.bohemian rhapsody 5:53
+	8.brown eyed girl  4:45
+	9.roxanne  3:35
+
+The list in alphabetical order:
+	1.back to black 4:17
+	2.bohemian rhapsody 5:53
+	3.brown eyed girl  4:45
+	4.englishman in newyork 4:28
+	5.every breath you take 3:56
+	6.hotel california 7:58
+	7.poker face 3:58
+	8.roxanne  3:35
+	9.shape of my heart 4:33
+
+The list in duration-time order:
+	1.roxanne  3:35
+	2.every breath you take 3:56
+	3.poker face 3:58
+	4.back to black 4:17
+	5.englishman in newyork 4:28
+	6.shape of my heart 4:33
+	7.brown eyed girl  4:45
+	8.bohemian rhapsody 5:53
+	9.hotel california 7:58
+
+The list in random order:
+	1.roxanne  3:35
+	2.hotel california 7:58
+	3.back to black 4:17
+	4.bohemian rhapsody 5:53
+	5.poker face 3:58
+	6.every breath you take 3:56
+	7.brown eyed girl  4:45
+	8.englishman in newyork 4:28
+	9.shape of my heart 4:33
+
