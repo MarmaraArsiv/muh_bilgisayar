@@ -1,0 +1,22 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+#define velocities and ranges data
+velocities = np.array([3.15, 3.15, 3.14])
+ranges = np.array([920, 910, 905])
+
+#find fit line
+m, n = np.polyfit(velocities, ranges, 1)
+
+#add points to plot
+plt.scatter(velocities, ranges, color='steelblue')
+
+#add fit line to plot
+plt.plot(velocities, m*velocities+n, color='red', linewidth=2, label= 'Fit line: ' + 'f(x) = ' + '{:.3f}'.format(m)  + 'x' + ' + {:.3f}'.format(n))
+
+plt.xlabel('Velocities')
+plt.ylabel('Range')
+plt.title('Fit Line of Steel Ball at Second Level')
+
+plt.legend()
+plt.show()
