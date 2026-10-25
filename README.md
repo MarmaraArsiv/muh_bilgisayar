@@ -3186,6 +3186,9 @@ Son iki akademik yılda bölümde dersi görünmeyen hocalar.
 
 Bu bölümde reponun hazırlanmasında katkıda bulunan insanlar listelenmiştir. Pull request ile katkıda bulunanlar bu listeye otomatik olarak eklenir. Nasıl katkıda bulunabileceğini README'nin başındaki **🤝 Katkıda Bulunun** bölümünde ve [CONTRIBUTING.md](CONTRIBUTING.md) dosyasında bulabilirsin. Burada isminin yer alması için bölüm dersleriyle alakalı, elle tutulur bir katkı yapman beklenir. 📝 README.md dosyaları otomatik olarak oluşturulduğu için README hatalarını doğrudan düzeltmek yerine bize bildirmen yeterli.
 
+<p align='center'><a href='https://github.com/yldzemin'><img src='https://github.com/yldzemin.png?size=80' width='40' alt='Mehmet Emin'></a></p>
+<h6 align='center'> <b><i>Mehmet Emin</i></b> <br><sub><a href='https://github.com/yldzemin'>GitHub</a> &nbsp;·&nbsp; <a href='https://www.linkedin.com/in/mehmet-emin-yildizz/'>LinkedIn</a></sub></h6>
+
 </details>
 
 
