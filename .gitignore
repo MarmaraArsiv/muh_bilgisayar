@@ -24,3 +24,10 @@ Thumbs.db
 **/*.log
 **/*.bak
 desktop.ini
+
+# Derlenmiş dosyalar (yalnızca kaynak kod tutulur)
+*.o
+*.obj
+*.exe
+*.out
+**/bombs/*/bomb
