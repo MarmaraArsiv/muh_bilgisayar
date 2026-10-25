@@ -100,19 +100,19 @@ döneme değişebilir, kesin ve güncel bilgi için bölüm/fakülte öğrenci i
 
 ## 📊 Arşiv Doluluk Durumu
 
-Arşivdeki **186** dersin **7** tanesinde en az bir materyal var (genel doluluk **%4**).
+Arşivdeki **186** dersin **23** tanesinde en az bir materyal var (genel doluluk **%12**).
 
 ```mermaid
 pie showData
-  "Materyali olan" : 7
-  "Henüz boş" : 179
+  "Materyali olan" : 23
+  "Henüz boş" : 163
 ```
 
 | Dönem | Doluluk | Materyali olan ders |
 |---|---|---|
-| [1. Yıl Güz](./1-1/) | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ %12 | 1 / 8 |
-| [1. Yıl Bahar](./1-2/) | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ %14 | 1 / 7 |
-| [2. Yıl Güz](./2-1/) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ %0 | 0 / 6 |
+| [1. Yıl Güz](./1-1/) | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ %75 | 6 / 8 |
+| [1. Yıl Bahar](./1-2/) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ %71 | 5 / 7 |
+| [2. Yıl Güz](./2-1/) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 %100 | 6 / 6 |
 | [2. Yıl Bahar](./2-2/) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 %100 | 5 / 5 |
 | [3. Yıl Güz](./3-1/) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ %0 | 0 / 6 |
 | [3. Yıl Bahar](./3-2/) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ %0 | 0 / 6 |
@@ -120,21 +120,20 @@ pie showData
 | [4. Yıl Bahar](./4-2/) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ %0 | 0 / 2 |
 | [Mesleki Seçmeli](./Mesleki%20Seçmeli/) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ %0 | 0 / 42 |
 | [Fakülte Teknik Seçmeli](./Fakülte%20Teknik%20Seçmeli/) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ %0 | 0 / 33 |
-| [Teknik Olmayan Seçmeli](./Teknik%20Olmayan%20Seçmeli/) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ %0 | 0 / 65 |
+| [Teknik Olmayan Seçmeli](./Teknik%20Olmayan%20Seçmeli/) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ %2 | 1 / 65 |
 
 ### 🙋 Bu dersler katkını bekliyor
 Elinde bu derslerden materyal varsa yukarıdaki **🤝 Katkıda Bulunun** bölümüne göz at.
 
-- **1. Yıl Güz:** Atatürk İlkeleri ve İnkılap Tarihi 1, Calculus 1, Computer Programming 1, Introduction to Computer Engineering, Physics Lab. 1, Physics 1, Türk Dili 1
-- **1. Yıl Bahar:** Atatürk İlkeleri ve İnkılap Tarihi 2, Calculus 2, Linear Algebra for Computer Engineering, Physics Lab. 2, Physics 2, Türk Dili 2
-- **2. Yıl Güz:** Data Structures, Differential Equations, Discrete Computational Structures, Electric Circuits, Engineering Economy, Numerical Methods
+- **1. Yıl Güz:** Atatürk İlkeleri ve İnkılap Tarihi 1, Türk Dili 1
+- **1. Yıl Bahar:** Atatürk İlkeleri ve İnkılap Tarihi 2, Türk Dili 2
 - **3. Yıl Güz:** Database Systems, Digital Logic Design, Modeling and Discrete Simulation, Object-Oriented Software Design, Operating Systems, Summer Practice 1
 - **3. Yıl Bahar:** Computer Organization, Formal Languages and Automata Theory, Introduction to Signals and Systems, Operations Research, Software Engineering, Technical Communications and Entrepreneurship
 - **4. Yıl Güz:** Computer Networks, Engineering Project 1, Introduction to Machine Learning, İş Sağlığı ve Güvenliği 1, Principles of Embedded Systems Design, Summer Practice 2
 - **4. Yıl Bahar:** Engineering Project 2, İş Sağlığı ve Güvenliği 2
 - **Mesleki Seçmeli:** Advanced Data Structures, Advanced Unix Programming, Artificial Intelligence, Cloud Computing, Compiler Design, Computer Graphics, Çoklu Ajan Sistemleri, Exchange Program Technical Elective 1, Exchange Program Technical Elective 2, Exchange Program Technical Elective 3, Exchange Program Technical Elective 4, Exchange Program Technical Elective 5, Exchange Program Technical Elective 6, Exchange Program Technical Elective 7, Fundamentals of Data Mining, Fundamentals of Electronic Commerce, Grafik Teorisi ve Uygulamaları, Human Computer Interaction, Information Systems Security, Information Systems - Analysis and Design, Internet Programming, Introduction to Blockchain Programming, Introduction to Computational Genomics, Introduction to Cryptography, Introduction to Data Science and Analytics, Introduction to Deep Learning, Introduction to Distributed Systems, Introduction to Natural Language Processing, Introduction to Parallel Processing, Introduction to Robotics and Control Theory, Management of Information Systems, Microprocessors, Mobile Device Programming, Multimedia Systems, Software Frameworks, Software Project Management, Sosyal Ağ Analizi, Special Topics in Computer Engineering 1, Special Topics in Computer Engineering 2, Special Topics in Computer Engineering 3, Special Topics in Computer Engineering 4, Wireless and Mobile Networks
 - **Fakülte Teknik Seçmeli:** Advanced Innovative Design Management for Entrepreneurship, Automotive Engineering, Business Management for Engineers, Chemical Engineering for Sustainable Biosphere, Construction Materials for Environmental Engineering, Control Systems, Cost Management in Chemical Industries, Design of Experiments, Designing Quality Products, Energy and the Environment, Entrepreneurship with Open-Source ERP Systems, Financial Engineering, From Waste to Value - Circular Economy Applications, Innovation and New Product Development Management, Instrumental Analysis for Engineers, Interdisciplinary Engineering Practices in Modern Systems, Introduction to Image Processing, Introduction to Information Systems Management, Introduction to Robotics, Introduction to Total Quality Management, Managing Engineering and Technology, Materials Engineering Economics and Plant Design, Mathematical Modeling in Mechanical Engineering, Mechatronics, Micro Electro Mechanical Systems, Planning and Management of Research, Project Management for Engineers, Renewable Energy Utilization, Simulation for Engineering Systems, Survey Design and Measure Development, Sustainable Innovation and Circular Economy, Total Quality Management in Materials Engineering, Quality Management System in Automotive Industry
-- **Teknik Olmayan Seçmeli:** Arabic for Beginners, Basic Principles of Accessibility in Informatics and Technology, Behavioral Sciences for Engineers, Brand Creation-Branding, Business Communication, Business Intelligence for Managers, Cardiopulmonary Resuscitation and First Aid Basics, Career Development, Career Orientation, Chinese 1, Chinese 2, Chinese 3, Cinema, Communication Models and Techniques, Creativity and lnnovation Management, Design, Innovation and Entrepreneurship, Earthquake and Rescue Principles, Effects of Human Behaviour on Environment, Energy for Physical Activity, Entrepreneurship and Innovation, Environmental Sociology, Ethics in Engineering and Science, French, French for Beginners, Fundamentals of Management, Geometric Origami, German, German Communication, German for Beginners, Health and Body Sociology, Human Performance and Nutrition, Industrial and Economic Sociology, Industrial Psychology, Information Literacy in Engineering, Integrated Marketing Communication, International Business, Interpersonal Relations and Communication, Introduction to Angel Financing for Engineers, Introduction to Business World for Engineers, Introduction to Corporate Governance for Engineers, Introduction to Finance for Engineers, Introduction to Leadership & Management for Engineers, Introduction to Programming with Python, Introduction to Strategic Human Resources Management, Introduction to Strategy for Engineers, Investment Planning, Japanese 1, Japanese 2, Labor Law, Marketing in a Technology Driven world for Engineers, Organizational Behaviour, Our Biosphere, Positive Thinking, Principles of Managerial Economics & Financial Management, Report Writing in English, Self Management, Seminars in German, Sociology of Urban Life, Spanish, Spanish for Beginners, Strategic Entrepreneurship, Sustainability Management, The Culture of Radiation Safety, Trekking and Orienteering, World Cultures
+- **Teknik Olmayan Seçmeli:** Arabic for Beginners, Basic Principles of Accessibility in Informatics and Technology, Behavioral Sciences for Engineers, Brand Creation-Branding, Business Communication, Business Intelligence for Managers, Cardiopulmonary Resuscitation and First Aid Basics, Career Development, Career Orientation, Chinese 1, Chinese 2, Chinese 3, Cinema, Communication Models and Techniques, Creativity and lnnovation Management, Design, Innovation and Entrepreneurship, Earthquake and Rescue Principles, Effects of Human Behaviour on Environment, Energy for Physical Activity, Entrepreneurship and Innovation, Environmental Sociology, Ethics in Engineering and Science, French, French for Beginners, Fundamentals of Management, Geometric Origami, German, German Communication, Health and Body Sociology, Human Performance and Nutrition, Industrial and Economic Sociology, Industrial Psychology, Information Literacy in Engineering, Integrated Marketing Communication, International Business, Interpersonal Relations and Communication, Introduction to Angel Financing for Engineers, Introduction to Business World for Engineers, Introduction to Corporate Governance for Engineers, Introduction to Finance for Engineers, Introduction to Leadership & Management for Engineers, Introduction to Programming with Python, Introduction to Strategic Human Resources Management, Introduction to Strategy for Engineers, Investment Planning, Japanese 1, Japanese 2, Labor Law, Marketing in a Technology Driven world for Engineers, Organizational Behaviour, Our Biosphere, Positive Thinking, Principles of Managerial Economics & Financial Management, Report Writing in English, Self Management, Seminars in German, Sociology of Urban Life, Spanish, Spanish for Beginners, Strategic Entrepreneurship, Sustainability Management, The Culture of Radiation Safety, Trekking and Orienteering, World Cultures
 
 </details>
 <!-- DOLULUK_BITIS -->
@@ -3184,6 +3183,9 @@ Son iki akademik yılda bölümde dersi görünmeyen hocalar.
 <h2 align='center'>🤝 Katkıda Bulunanlar</h2>
 
 Bu bölümde reponun hazırlanmasında katkıda bulunan insanlar listelenmiştir. Pull request ile katkıda bulunanlar bu listeye otomatik olarak eklenir. Nasıl katkıda bulunabileceğini README'nin başındaki **🤝 Katkıda Bulunun** bölümünde ve [CONTRIBUTING.md](CONTRIBUTING.md) dosyasında bulabilirsin. Burada isminin yer alması için bölüm dersleriyle alakalı, elle tutulur bir katkı yapman beklenir. 📝 README.md dosyaları otomatik olarak oluşturulduğu için README hatalarını doğrudan düzeltmek yerine bize bildirmen yeterli.
+
+<p align='center'><a href='https://github.com/cihangiryaman'><img src='https://github.com/cihangiryaman.png?size=200' width='100' alt='Cihangir Yaman'></a></p>
+<h1 align='center'>⭐ <b><i>Cihangir Yaman</i></b> ⭐<br><sub><a href='https://github.com/cihangiryaman'>GitHub</a> &nbsp;·&nbsp; <a href='https://www.linkedin.com/in/cihangir-yaman/'>LinkedIn</a></sub></h1>
 
 <p align='center'><a href='https://github.com/yldzemin'><img src='https://github.com/yldzemin.png?size=80' width='40' alt='Mehmet Emin'></a></p>
 <h6 align='center'> <b><i>Mehmet Emin</i></b> <br><sub><a href='https://github.com/yldzemin'>GitHub</a> &nbsp;·&nbsp; <a href='https://www.linkedin.com/in/mehmet-emin-yildizz/'>LinkedIn</a></sub></h6>
