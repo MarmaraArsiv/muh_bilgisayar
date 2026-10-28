@@ -1,0 +1,21 @@
+GPA  Studied   Passed
+===  ========  ======
+L	F	F
+L	T	T
+M	F	F	
+M	T	T	
+H	F	T
+H	T	T
+
+
+Decision tree for determining a student failed/passed? log3=1.6
+
+
+Solution:
+(Calculations are not included, not 100% correct)
+
+        Studied
+     no/        \yes
+    GPA.          Pass
+  H/    \Other
+Pass     Fail

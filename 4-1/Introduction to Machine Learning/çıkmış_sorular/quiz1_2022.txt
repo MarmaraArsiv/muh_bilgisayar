@@ -1,0 +1,8 @@
+Explain concepts
+Supervised learning
+Unsupervised learning
+Reinforcement learning
+VC dimension
+
+Explain Pocket learning algorithm with equations
+Can it be used for not linearly separable
