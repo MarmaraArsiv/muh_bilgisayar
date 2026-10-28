@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pin_planner>
+	<pin_info>
+		<pin name="btn" source="Pin Planner" >
+		</pin>
+		<pin name="grounds[0]" source="Pin Planner" >
+		</pin>
+		<pin name="grounds[1]" source="Pin Planner" >
+		</pin>
+		<pin name="grounds[2]" source="Pin Planner" >
+		</pin>
+		<pin name="grounds[3]" source="Pin Planner" >
+		</pin>
+		<pin name="display[0]" source="Pin Planner" >
+		</pin>
+		<pin name="display[1]" source="Pin Planner" >
+		</pin>
+		<pin name="display[2]" source="Pin Planner" >
+		</pin>
+		<pin name="display[3]" source="Pin Planner" >
+		</pin>
+		<pin name="display[4]" source="Pin Planner" >
+		</pin>
+		<pin name="display[5]" source="Pin Planner" >
+		</pin>
+		<pin name="display[6]" source="Pin Planner" >
+		</pin>
+		<pin name="switch" source="Pin Planner" >
+		</pin>
+	</pin_info>
+	<buses>
+	</buses>
+	<group_file_association>
+	</group_file_association>
+	<pin_planner_file_specifies>
+	</pin_planner_file_specifies>
+</pin_planner>

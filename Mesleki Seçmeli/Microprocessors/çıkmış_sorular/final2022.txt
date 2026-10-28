@@ -1,0 +1,18 @@
+1) System Verilog code for the ALU below (25p)
+
+ALU CODE	RESULT
+00		x+y
+01		x-y
+10		x&y
+
+2) I/O device 1 at 0x___ I/O device 2 at 0x___ and it's status register at 0x___
+Stack at 0x___ and IDT at 0x___. Write assembly for reading I/O devices. Use interrupts for I/O 1 and polling for I/O 2.
+
+(25p)
+
+3) Draw Reptile CPU without JMP and JZ instructions. Don't draw control unit but show the control signals. (25P)
+
+4) Memory: 0x000-0x3FF
+   I/O Dev: 0x700-0x7FF
+
+Draw address mapping circuit. (25P)

@@ -1,0 +1,18 @@
+.data
+           N: 60
+           sum:  
+.code 
+           ldi 0 N
+           ld 0 0
+           ldi 3 0x0
+           or  3 0 3   
+           jz out       //checks if N=0
+loop       inc 1 
+           add 2 2 1           
+           dec 0 
+           jz out 
+           jmp loop 
+out        ld 0 sum
+           st 0 2
+           st 0 0xa10
+end        jmp end
