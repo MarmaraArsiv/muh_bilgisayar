@@ -1,0 +1,94 @@
+{
+  "semesters": [
+    {
+      "takenCredits": 15,
+      "completedCredits": 15,
+      "courses": [
+        {
+          "Course ID": "CSE1100",
+          "Credits": "5",
+          "Grade": "AA",
+          "Course Name": "Name"
+        },
+        {
+          "Course ID": "CSE1100",
+          "Credits": "5",
+          "Grade": "AA",
+          "Course Name": "Name"
+        },
+        {
+          "Course ID": "CSE1100",
+          "Credits": "5",
+          "Grade": "AA",
+          "Course Name": "Name"
+        }
+      ],
+      "cumulativeCompletedCredits": 15,
+      "cumulativeTakenCredits": 15,
+      "semesterName": "Fall2021",
+      "gpa": 4.0,
+      "semester": 1,
+      "cumulativeGpa": 4.0
+    },
+    {
+      "takenCredits": 15,
+      "completedCredits": 15,
+      "courses": [
+        {
+          "Course ID": "CSE1100",
+          "Credits": "5",
+          "Grade": "BA",
+          "Course Name": "Name"
+        },
+        {
+          "Course ID": "CSE1100",
+          "Credits": "5",
+          "Grade": "AA",
+          "Course Name": "Name"
+        },
+        {
+          "Course ID": "CSE1100",
+          "Credits": "5",
+          "Grade": "AA",
+          "Course Name": "Name"
+        }
+      ],
+      "cumulativeCompletedCredits": 30,
+      "cumulativeTakenCredits": 30,
+      "semesterName": "Spring2021",
+      "gpa": 3.83,
+      "semester": 2,
+      "cumulativeGpa": 3.92
+    },
+    {
+      "takenCredits": 15,
+      "completedCredits": 15,
+      "courses": [
+        {
+          "Course ID": "CSE1100",
+          "Credits": "5",
+          "Grade": "AA",
+          "Course Name": "Name"
+        },
+        {
+          "Course ID": "CSE1100",
+          "Credits": "5",
+          "Grade": "AA",
+          "Course Name": "Name"
+        },
+        {
+          "Course ID": "CSE1100",
+          "Credits": "5",
+          "Grade": "AA",
+          "Course Name": "Name"
+        }
+      ],
+      "cumulativeCompletedCredits": 45,
+      "cumulativeTakenCredits": 45,
+      "semesterName": "Fall2021",
+      "gpa": 4.0,
+      "semester": 3,
+      "cumulativeGpa": 3.94
+    }
+  ]
+}
