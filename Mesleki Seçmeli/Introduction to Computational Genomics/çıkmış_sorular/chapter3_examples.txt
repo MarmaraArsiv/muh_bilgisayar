@@ -1,0 +1,148 @@
+EX1: Composition3(TATGGGGTGC)?
+
+TAT
+ATG
+TGG
+GGG
+GGG
+GGT
+GTG
+TGC
+
+In lexicograhic order:
+Composition3(TATGGGGTGC) = {ATG, GGG, GGG, GGT, GTG, TAT, TGC, TGG}.
+
+-----------------------------------------------------------------------
+
+EX2: String Resconstruction from given k-mers:
+AAT   ATG   GTT   TAA   TGT
+
+Which 3-mer can be used to start the string?
+
+Which 3-mer should be selected next?
+
+How to generate the string?
+	TAA
+	 AAT
+	  ATG
+	   TGT
+	    GTT
+	
+	TAATGTT
+
+---------------------------------------------------------------------
+
+EX3: String Resconstruction from given k-mers:
+
+AAT  ATG  ATG  ATG  CAT  CCA  GAT  GCC  GGA  GGG  GTT  TAA  TGC  TGG  TGT 
+
+TAA
+ AAT
+  ATG
+   TGC
+    GCC
+	 CCA
+	  CAT
+	   ATG
+	    TGG
+         GGG
+		  GGA
+		   GAT
+		    ATG
+			 TGT
+			  GTT
+
+----------------------------------------------------------
+Ex4: Is 0001110100 a 3-universal string?
+
+It contains:
+000
+001
+011
+111
+110
+101
+010
+100
+
+Yes
+
+----------------------------------------------------------
+Ex5: Are the given strings 4-universal strings?
+a)1000010100110111100
+b)0000110010111101
+
+a)1000010100110111100 - Yes
+1000
+0000
+0001
+0010
+0101
+1010
+0100
+1001
+0011
+0110
+1101
+1011
+0111
+1111
+1110
+1100
+
+b)0000110010111101 - No
+0000
+0001
+0011
+0110
+1100 
+1001
+0010
+0101 
+1011
+0111 
+1111 
+1110 
+1101 
+
+----------------------------------------------------------
+Ex6: If we construct de Bruijn Graphs for the following:
+Are they the same or different? 
+
+DeBruijn3(TAATGCCATGGGATGTT) 
+DeBruijn3(TAATGGGATGCCATGTT)
+
+Same
+
+------------------------------------------------------------
+EX7:
+If we construct de Bruijn Graphs for the following:
+Are they the same or different? 
+
+DeBruijn2(TAATGCCATGGGATGTT)
+DeBruijn3(TAATGCCATGGGATGTT)
+DeBruijn4(TAATGCCATGGGATGTT)
+
+Which one would you use to reconstruct the original text?
+
+--------------------------------------------------------------
+Ex8:
+Generate the (3,2)-mer composition of TAATGCCATGGGATGTT
+	AAT|CAT
+	ATG|ATG
+	ATG|ATG
+	CAT|GAT
+	CCA|GGA
+	GCC|GGG
+	GGG|GTT
+	TAA|CCA
+	TGC|TGG
+	TGG|TGT
+---------------------------------------------------------------
+	
+Ex9:
+TAATGCCATGGGATGTT and TAATGGGATGCCATGTT have the same 3-mer composition. Do they also have the same (3,1)-mer compositions?
+
+They have different (3,1)-mer compositions.
+
+If we can generate the (3,1)-mer composition of these strings, then we will be able to distinguish between them. 

@@ -1,0 +1,71 @@
+Ex1: What is the hamming distance between ATGCATGC and TGCATGCA ?
+
+ATGCATGC-
+-TGCATGCA
+
+LCS:TGCATGC
+
+
+ATGC-TTA-
+-TGCATTAA
+
+LCS:TGCTTA
+
+-----------------------------------------------------------------
+Biological sequences are subject to insertions and deletions:
+i-th symbol of one sequence corresponds to a symbol at a completely different position 
+in the other sequence. 
+
+The goal is to find the most appropriate correspondence of symbols.
+Good alignment: Matches as many symbols as possible.
+
+
+
+
+Ex2: What is the alignment of ATGTTATA and ATCGTCC?
+
+AT-GTTATA
+ATCGT--CC
+
+-----------------------------------------------------------------
+Ex3: What is the longest common subsequence of ATGTTATA and ATCGTCC?
+Two strings may have more than one longest common subsequence
+AT-GTTATA
+ATCGT--CC
+
+AT-GTTATA
+ATCGTC-C-
+
+AT-GTTATA
+ATCGTCC--
+
+------------------------------------------------------------------
+Ex4: Find all longest common subsequences of the strings ACTGCA and CATCGC
+
+ACT-GCA
+CATCGC
+
+AC-T-GCA
+-CATCGC-
+LCS:CTGC
+
+-ACT-GCA
+CA-TCGC
+LCS:ATGC
+
+
+ACTGCA
+CATCGC
+
+------------------------------------------------------------------
+Ex5: What is the score of this alignment if the match score is 1, the mismatch penalty is 1, and the indel penalty is 2?
+
+TCGAC--ATT
+CC---GAA-T
+
+Score=(3*1)-(1*1)-(6*2)=-10
+
+TCGACATT
+CCGA-AT–
+
+Score=(5*1)-(1*1)-(2*2)=0
