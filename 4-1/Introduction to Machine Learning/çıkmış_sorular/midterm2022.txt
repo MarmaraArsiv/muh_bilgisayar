@@ -1,0 +1,5 @@
+1) SGD from HW3 question 1
+2) Explain over fitting and a couple of more short questions
+3) Build a neural network by using perceptrons.
+There was a square on a coordinate system. Corners at (0,1) (1,0) (0,-1) (-1,0)
+It was a similar to the last question of midterm2020.pdf inside this folder.
