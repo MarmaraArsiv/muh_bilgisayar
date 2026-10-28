@@ -1,0 +1,81 @@
+Random Motif Search
+
+ttaccttaac
+gatgtctgtc
+ccggcgttag
+cactaacgag
+cgtcagaggt
+
+Motif:
+t a c c
+t g t c
+g g c g
+c a c t
+c a g a
+
+3 2 2 3
+Score=3+2+2+3=10
+
+Profile
+a:0		0.6		0		0.2
+c:0.4	0		0.6		0.4
+g:0.2	0.4		0.2		0.2
+t:0.4	0		0.2		0.2
+
+ttaccttaac
+gatgtctgtc
+ccggcgttag
+cactaacgag
+cgtcagaggt
+
+New Motifs Calculation:
+tacc: 0.4*0.6*0.6*0.4
+gatg, tgtc: gatg=0.2*0.6*0.2*0.2=0.0048	tgtc=0.4*0.4*0.2*0.4=0.0128
+cggc, ggcg, cgtt: cggc=0.0128	ggcg=0.0096	cgtt=0.0064
+cact
+cgtc, caga, gagg: cgtc=0.0128	caga=0.0096		gagg=0.0048
+
+New Motifs:
+tacc
+tgtc
+cggc
+cact
+cgtc
+
+Score=2+2+3+1=8
+
+Profile
+a:0		0.4		0		0
+c:0.6	0		0.4		0.8
+g:0		0.6		0.2		0
+t:0.4	0		0.4		0.2
+
+ttaccttaac
+gatgtctgtc
+ccggcgttag
+cactaacgag
+cgtcagaggt
+
+New Motifs Calculation:
+tacc
+tgtc, tgtc: tgtc
+cggc, cgtt: cggc=0.0576		cgtt=0.0288
+cact
+cgtc
+
+New Motifs:
+tacc
+tgtc
+cggc
+cact
+cgtc
+
+Score=2+2+3+1=8
+
+Profile
+a:0		0.4		0		0
+c:0.6	0		0.4		0.8
+g:0		0.6		0.2		0
+t:0.4	0		0.4		0.2
+
+Consensus=cg c/t c
