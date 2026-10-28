@@ -1,0 +1,39 @@
+INTRODUCTION TO NLP
+
+SYLLABUS
+
+TOPICS:
+Introduction
+Words, Context and Meaning
+Distributional Semantics
+Word Sense Disambiguation
+Machine Learning Background
+The Perceptron Classifier
+Logistic Regression
+Neural Networks
+N-gram Language Models
+Word Embeddings
+Neural Machine Translation
+Recurrent Language Models
+Encoder-Decoder Models
+Attention Models
+Multilingual and Multi-Task Learning
+Semi-supervised and Unsupervised Learning
+
+TEXT BOOKS:
+* Speech and Language Processing. Daniel Jurafsky & James H. Martin. 2020.
+https://web.stanford.edu/~jurafsky/slp3/
+* Linguistic Fundamentals for Natural Language Processing: 100 Essentials from Morphology and Syntax (Synthesis Lectures on Human Language Technologies), June 2013, 184 pages, Emily M. Bender, University of Washington
+https://doi.org/10.2200/S00493ED1V01Y201303HLT020
+* Natural Language Processing by Jacob Eisenstein, 2018
+https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
+* Foundations of Statistical Natural Language Processing by Chris Manning and Hinrich Schuetze, 199
+https://nlp.stanford.edu/fsnlp/
+* A Course in Machine Learning by Hal Daumé III
+http://ciml.info/
+
+GRADING:
+Attendance %5
+Midterm Exam %20
+Final Exam %40
+Project %35
