@@ -1,0 +1,15 @@
+sınavlara internetten çalışmayın hocanın sorularından çalışın
+
+Midterm
+----------------------------------------
+dot product
+cross product
+vectorlerden açı bulma
+unit vector gibi matematiksel işlemler
+
+2D rotation ve bir objeyi veya basisi başka basislerle temsil etme
+
+3D rotation
+
+fotoğraf çekme sorusu
+
