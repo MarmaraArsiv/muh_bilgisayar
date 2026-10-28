@@ -1,0 +1,57 @@
+--Query 1: Retrieve ssn values of the employees. 
+--Query 2: Retrieve ssn, first name and last name of the employees. 
+--Query 3: Retrieve ssn, first and last name, birthdate and address of the employee whose ssn is 101. 
+--Query 4: Retrieve the birthdate and address of the employee(s) whose name is “Ali Yılmaz”. 
+--Query 5: Retrieve ssn, full name (first & last concatenated) and salary of female employees whose salary is between 600 and 700. Rename “first & last concatenated” as FullName. 
+--Query 6: Retrieve ssn and department number of employees in departments 4 and 6. 
+--Query 7: Retrieve department name and the ssn, first and last name of their managers. 
+--Query 8: Retrieve ssn, first name and department name of employees who work for the department “Marketing”. 
+--Query 9: Retrieve ssn, first name, department number and department name of employees who work for the department “Marketing”. 
+--Query 10: Rewrite the previous query using aliases. 
+--Query 11: Retrieve ssn, first name and department name of all employees. 
+--Query 12: Retrieve ssn, first name and department name of all employees even in the case that the employee does not belong to any department. 
+--Query 13: For each employee, retrieve the employee’s ssn, first and last name and the ssn, first and last name of his/her immediate supervisor. If he/she has not a supervisor, leave his/her supervisor’s info blank. 
+--Query 14: Retrieve all fields and rows of table Employee. 
+--Query 15: Retrieve all the fields and rows of tables Department and Employee for managers. 
+--Query 16: For every project located in “Kadıköy”, list the project number, the controlling department number and the department manager’s last name, address and birthdate. 
+--Query 17: Retrieve ssn, last name of the employees who work for the departments 1, 2, and 4. 
+--Query 18: Retrieve ssn, last name of the employees who work for the departments “Central Office”, “R&D”, and “Marketing”. 
+--Query 19: Retrieve the salary of every employee. 
+--Query 20: Retrieve all distinct salary values. 
+--Query 21: Make a list of all project numbers for projects that involve an employee whose last name is “Şirin” either as a manager of the department that controls the project or as a worker. 
+--Query 22: Retrieve ssn, first & last name of employees whose address is in “Kadıköy”. 
+--Query 23: Retrieve ssn, first & last name of employees whose first name starts with the letter “a” and the third character of last name is “r”. 
+--Query 24: Show the resulting salaries in addition to ssn and last name if every employee working on the “Computer Education” project is given a 10 percent raise. 
+--Query 25: Retrieve a list of employees (ssn, first & last name) and the projects they are working on, ordered by department and; within each department, ordered alphabetically by last name, first name. 
+--Query 26: Retrieve the ssn, first & last names of all employees who do not have supervisors. 
+--Query 27: Retrieve the ssn, first & last names of all employees who do not work on any projects. 
+--Query 28: Retrieve the name of each employee who has a dependent with the same first name and same gender as the employee. 
+--Query 29: Retrieve the names of employees who have no dependents. 
+--Query 30: List the ssn and names of employees who have at least one dependent. 
+--Query 31: List the names of managers who have at least one dependent. 
+--Query 32: Find the sum of the salaries of all employees, the maximum salary, the minimum salary and the average salary. 
+--Query 33: Find the sum of the salaries of all employees of the department “Central Office”, as well as the maximum salary, the minimum salary and the average salary in this department. 
+--Query 34: How many employees are there in the company? 
+--Query 35: What is the number of employees in the department “Central Office”? 
+--Query 36: Count the number of distinct salary values in the database. 
+--Query 37: For each department; retrieve the department number and the number of employees in the department. 
+--Query 38: For each department; retrieve the department number, the number of employees in the department and their average salary. 
+--Query 39: For each project; retrieve the project number, the project name and the number of employees who work on that project. 
+--Query 40: For each employee; retrieve ssn, last name and total number of hours worked on all projects. 
+--Query 41: For the employees that have dependents; retrieve ssn and the number of his/her dependents. 
+--Query 42: For each employee; retrieve ssn, last name, total number of hours worked on all projects, and the number of his/her dependents. 
+--Query 43: For each project located in “Üsküdar”; retrieve ssn, project number and the total number of hours worked on. 
+--Query 44: For each project on which at least one employee works; retrieve the project number, the project name and the number of employees who work on the project. 
+--Query 45: For each project on which more than one employee works; retrieve the project number, the project name and the number of employees who work on the project. 
+--Query 46: For each project on which more than one employee works, retrieve the project number. 
+--Query 47: For each department that has at least three employees with salary greater than $500; retrieve the department number, department name and the number of its employees with salary greater than $500. 
+--Query 48: For each department that has at least three employees; retrieve the department number, department name and the number of its employees. 
+--Query 49: For each department that has at least three employees; retrieve the department number, department name and the number of its employees with salary greater than $500. 
+--Query 50: For each employee who has at least two dependents; retrieve ssn, first & last name (concatenated, rename as “Full Name”), department name that s/he works for, total project hours worked, number of projects worked on and average project hours worked on. Discard the employees who does not work on at least three projects. Order the list by department name ascending and average hours descending. 
+--Query 51: Insert a new record to table WorksOn with values Ssn=505, Pno=7, and Hours=8. 
+--Query 52: Delete the records on table WorksOn with values Ssn=505 and Pno=7. 
+--Query 53: Delete the employees who work on projects at most 3 hours. 
+--Query 54: Update the address of “Meryem Beyza” as “Ataşehir”. 
+--Query 55: Update the salaries by 20% of the employees of department “Sales” those work on projects more than 5 hours. 
+--Query 56: Create a table UserLog with fields LogID, UserID, and LogDescription. LogID will be unique, and UserID will reference Ssn of Employee. 
+--Query 57: Add a new field LogDate to table UserLog. 

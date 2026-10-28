@@ -1,0 +1,74 @@
+Create Table Standings (
+Pos tinyint,
+[Team Name] nvarchar(30),
+GP tinyint,
+W tinyint,
+T tinyint,
+L tinyint,
+GF smallint,
+GA smallint,
+GD smallint,
+Pts tinyint
+)
+Create Table TransactionLog (
+LogID int identity(1,1) primary key,
+LogTime datetime,
+LogType char(1),
+BeforeState nvarchar(500),
+AfterState nvarchar(500),
+)
+
+INSERT INTO Standings exec sp_GetStandingsUpToDate '20140715'
+
+CREATE TRIGGER Trg_RearrangeStandings on Goals
+AFTER INSERT, UPDATE, DELETE
+as
+begin
+DECLARE @Operation char(1)
+DECLARE @match_id INT
+DECLARE @player_id INT
+DECLARE @player_season VARCHAR(5)
+DECLARE @before_state nvarchar(500)
+DECLARE @after_state nvarchar(500)
+DECLARE @date smalldatetime = (select FORMAT(getdate(), 'yyyyMMdd'))
+IF EXISTS (SELECT 0 FROM inserted)
+BEGIN
+   SELECT @match_id = inserted.MatchID FROM inserted
+   SELECT @player_id = inserted.PlayerID FROM inserted
+   set @player_season = (SELECT Season FROM PlayerTeam WHERE PlayerID=@player_id)
+   declare @goal_minute tinyint = (SELECT inserted.Minute FROM inserted)
+   IF @player_season != '13-14'
+	  BEGIN
+	  ROLLBACK TRANSACTION
+	  END
+	  IF @goal_minute < 1 or @goal_minute > 90
+	  BEGIN
+	  ROLLBACK TRANSACTION
+	  END
+   IF EXISTS (SELECT 0 FROM deleted)
+   BEGIN
+   -- UPDATE
+      SELECT @Operation = 'U'
+	  set @before_state = (SELECT cast(d.MatchID as varchar)+';'+cast(d.PlayerID as varchar)+';'+cast(d.IsOwnGoal as varchar)+';'+cast(d.Minute as varchar) FROM deleted d)
+	  set @after_state = (SELECT cast(d.MatchID as varchar)+';'+cast(d.PlayerID as varchar)+';'+cast(d.IsOwnGoal as varchar)+';'+cast(d.Minute as varchar) FROM inserted d)
+   END ELSE
+   BEGIN
+   -- INSERT
+      SELECT @Operation = 'I'
+	  set @before_state = NULL
+	  set @after_state = (SELECT cast(d.MatchID as varchar)+';'+cast(d.PlayerID as varchar)+';'+cast(d.IsOwnGoal as varchar)+';'+cast(d.Minute as varchar) FROM inserted d)
+   END
+END ELSE 
+BEGIN
+   -- DELETE
+   SELECT @Operation = 'D'
+   set @before_state = (SELECT cast(d.MatchID as varchar)+';'+cast(d.PlayerID as varchar)+';'+cast(d.IsOwnGoal as varchar)+';'+cast(d.Minute as varchar) FROM deleted d)
+   set @after_state = NULL
+END 
+PRINT @Operation
+INSERT INTO TransactionLog (LogTime, LogType, BeforeState, AfterState) VALUES (GETDATE(), @Operation,  @before_state, @after_state)
+DELETE FROM Standings
+INSERT INTO Standings exec sp_GetStandingsUpToDate '20140715'
+end
+
+INSERT INTO Goals VALUES (58,40,0,81)
