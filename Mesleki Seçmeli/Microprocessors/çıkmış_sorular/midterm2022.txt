@@ -1,0 +1,2 @@
+Suppose a CPU with only LD, LDI, ST instructions => write verilog, draw fsm, give microcode table, draw inside of control unit, draw minimum circuit
+memory mapping
