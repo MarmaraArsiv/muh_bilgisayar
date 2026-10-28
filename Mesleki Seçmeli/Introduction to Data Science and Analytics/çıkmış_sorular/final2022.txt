@@ -1,0 +1,10 @@
+ilk soru : Naive Bayes sorusuydu. Slayttaki sorunun aynısıydı.
+
+ikinci soru : precision recall f1 sorusuydu. 2 class vardı sadece.
+
+üçüncü soru : hastanın cancer/normal olup olmadıgını belirleyen bir sistemde precision mı önemli recall mu tarzında bir soruydu.
+
+dördüncü soru : koordinat düzleminde 8 nokta vardı. 3 tanesi X classına aitti diğerleri O classı. a şıkkında, sütunlar x y koordinatları olacak şekilde veriyi
+tabloya dökmemiz istendi. b ve c şıklarında single link ve complete link distance soruldu. d şıkkında ise centroid distance soruldu. Manhattan istendi.
+
+beşinci soru : projenin konusu neydi algoritmalar neydi veri neydi vs vs.
