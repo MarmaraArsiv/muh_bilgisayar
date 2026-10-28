@@ -1,0 +1,236 @@
+Gibbs Sampler
+
+ttaccttaac
+gatgtctgtc
+ccggcgttag
+cactaacgag
+cgtcagaggt
+
+Motif:
+tacc
+tgtc
+ggcg
+cact
+caga
+
+Score=3+2+2+3=10
+-------------------
+Loop until j=N
+j=1
+Assume i=3:
+Motif:
+tacc
+tgtc
+----
+cact
+caga
+
+Profile
+a:0		0.75	0		0.25
+c:0.5	0		0.5		0.5
+g:0		0.25	0.25	0
+t:0.5	0		0.25	0.25
+
+Count
+a:1		4	1	2
+c:3		1	3	3
+g:1		2	2	1
+t:3		1	2	2
+
+Updated Profile:
+a:1/8	4/8		1/8		2/8
+c:3/8	1/8		3/8		3/8
+g:1/8	2/8		2/8		1/8
+t:3/8	1/8		2/8		2/8
+
+ccggcgttag
+
+ccgg:3*1*2*1 = 6/4096
+cggc:3*2*2*3 = 36/4096
+ggcg:1*2*3*1 = 6/4096
+gcgt:1*1*2*2 = 4/4096
+cgtt:3*2*2*2 = 24/4096
+gtta:1*1*2*2 = 4/4096
+ttag:3*1*1*1 = 3/4096
+
+Assume that gcgt with probability 4/83 is selected
+
+Motif:
+tacc
+tgtc
+gcgt
+cact
+caga
+
+Score= 3+2+3+3=11
+--------------------
+j=2
+Assume i=1:
+
+Motif:
+----
+tgtc
+gcgt
+cact
+caga
+
+Count
+a:1		3	1	2
+c:3		2	2	2
+g:2		2	3	1
+t:2		1	2	3
+
+Updated Profile:
+a:1/8	3/8		1/8		2/8
+c:3/8	2/8		2/8		2/8
+g:2/8	2/8		3/8		1/8
+t:2/8	1/8		2/8		3/8
+
+ttaccttaac
+
+ttac: 2*1*1*2 = 4/4096
+tacc: 2*3*2*2 = 24/4096
+acct: 1*2*2*3 = 12/4096
+cctt: 3*2*2*3 = 36/4096
+ctta: 3*1*2*2 = 12/4096
+ttaa: 2*1*1*2 = 4/4096
+taac: 2*3*1*2 = 12/4096
+
+Assume cctt with probability 36/104 is selected
+
+Motif:
+cctt
+tgtc
+gcgt
+cact
+caga
+
+Score= 2+3+3+2=10
+--------------------
+j=3
+Assume i=5:
+
+Motif:
+cctt
+tgtc
+gcgt
+cact
+----
+
+Count
+a:1		2	1	1
+c:3		3	2	2
+g:2		2	2	1
+t:2		1	3	4
+
+Updated Profile:
+a:1/8	2/8		1/8		1/8
+c:3/8	3/8		2/8		2/8
+g:2/8	2/8		2/8		1/8
+t:2/8	1/8		3/8		4/8
+
+cgtcagaggt
+
+cgtc: 3*2*3*2 = 36/4096
+gtca: 2*1*2*1 = 4/4096
+tcag: 2*3*1*1 = 6/4096
+caga: 3*2*2*1 = 12/4096
+agag: 1*2*1*1 = 2/4096
+gagg: 2*2*2*1 = 8/4096
+aggt: 1*2*2*4 = 16/4096
+
+Assume aggt with probability 16/84 is selected
+
+Motif:
+cctt
+tgtc
+gcgt
+cact
+aggt
+
+Score= 3+3+3+1=10
+--------------------
+j=4
+Assume i=4:
+
+Motif:
+cctt
+tgtc
+gcgt
+----
+aggt
+
+Count
+a:2		1	1	1
+c:2		3	1	2
+g:2		3	3	1
+t:2		1	3	4
+
+Updated Profile:
+a:2/8	1/8		1/8		1/8
+c:2/8	3/8		1/8		2/8
+g:2/8	3/8		3/8		1/8
+t:2/8	1/8		3/8		4/8
+
+cact: 2*1*1*4 = 8/4096
+acta: 2*3*3*1 = 12/4096
+ctaa: 2*1*1*1 = 2/4096
+taac: 2*1*1*2 = 4/4096
+aacg: 2*1*1*1 = 2/4096
+acga: 2*3*3*1 = 18/4096
+cgag: 2*3*1*1 = 6/4096
+
+Assume acga with highest probability is selected
+
+Motif:
+cctt
+tgtc
+gcgt
+acga
+aggt
+
+Score= 3+2+2+2=9
+
+--------------------
+j=5
+Assume i=2:
+
+Motif:
+cctt
+----
+gcgt
+acga
+aggt
+
+Count
+a:3		1	1	2
+c:2		4	1	1
+g:2		2	4	1
+t:1		1	2	4
+
+Updated Profile:
+a:3/8	1/8		1/8		2/8
+c:2/8	4/8		1/8		1/8
+g:2/8	2/8		4/8		1/8
+t:1/8	1/8		2/8		4/8
+
+gatg: 2*1*2*1 = 4/4096
+atgt: 3*1*4*4 = 48/4096
+tgtc: 1*2*2*1 = 4/4096
+gtct: 2*1*1*4 = 8/4096
+tctg: 1*4*2*1 = 8/4096
+ctgt: 2*1*4*4 = 32/4096
+tgtc: 1*2*2*1 = 4/4096
+
+Assume atgt with highest probability is selected
+
+Motif:
+cctt
+atgt
+gcgt
+acga
+aggt
+
+Score= 2+2+1+1=6
+
+And the algorithm will continue until j=N
