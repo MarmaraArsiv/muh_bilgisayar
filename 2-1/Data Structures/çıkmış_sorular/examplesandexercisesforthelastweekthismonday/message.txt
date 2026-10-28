@@ -1,0 +1,18 @@
+Dear all,
+
+Attached please find examples and exercises for the last week + this monday.
+
+Check out examples and solve exercises! They will help you grasp concepts and procedures and make it easier for you understand the delicate details to solve relevant problems faster.
+
+The first two, Exp1 and Exp2, are direct examples for tree traversal algorithms.
+As a straightforward extension to the tree traversals in Exp3, I made up arbitrary (no name) tree traversals (RLN and RNL). Write their algorithms as we discussed in my lecture notes and solve the exercises.
+
+I introduce the concept of "ternary trees (TTs)," a tree of nodes each with at most three children. Now that you have learned BTs it is easy for you to comprehend TTs and, extrapolate the definition that, in general, an n-ary tree is one with nodes at most n children. Here I revealed the idea for you that any tree may be arbitrarily traversed with a suitable (typically recursive) algorithm. Write the algorithms mentioned in the file and traverse the tree using all of these algorithms.  
+
+Exp5 is an example that shows that the extent of your relevant knowledge may be evaluated  in a diversity of ways (i.e., you are highly likely to see and have to solve problems in an exam you have not seen before) that typically require that you have to use your knowledge with a totally different application viewpoint to fit to that problem. Hence you should learn those concepts and methods that we discuss in our class in such a settled fashion that, in case necessary, you are able to reconfigure your knowledge to provide a solution to such problems.  Find other BT and even TT topologies to devise problems similar to those in Exp5.
+
+Various formats of arithmetic expressions (AEs) provide a logic. Try to comprehend of the logic of getting one format from the other in Exp6.  Understanding this logic will help you devise the algorithm of any related problem. We will further discuss the concept in arithmetic trees tomorrow in the rest of our discussion of "trees." You will see we need stacks to convert the format of AEs from one to the other and how this need is eliminated if the expression is kept in an a BT.
+
+ I will see you tomorrow at 2pm.
+
+B. Tümer
