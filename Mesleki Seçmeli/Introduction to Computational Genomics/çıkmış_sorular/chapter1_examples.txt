@@ -1,0 +1,133 @@
+What is the reverse complement of
+
+GATTACA
+CTAATGT
+TGTAATC
+
+TTACGAC
+GTCGTAA
+
+ATCCATG
+CATGGAT
+
+
+Count the number of CGCG in 
+CGCGATACGTTACATACATGATAGACCGCGCGCGATCATATCGCGATTATC
+CGCG
+
+What is the skew diagram of G-C
+CATTC  CA GTA CTT C  GATGATGGCGTGAAGA
+-1  -2 -3 -2  -3  -4 -3
+
+Compute the Hamming distance between
+
+s1= CAGAAAGGAA  GGTCCCCATACACCGACGCACCAGTTTA
+s2= CACGCCGTAT  GCATAAACGAGCCGCACGAACCAGAGAG
+6               28-11=17
+
+count=0;
+for(i=0;i<length(s1);i++)
+if(s1[i]!=s2[i])
+count++;
+
+Find the number of occurences of pattern AAAAA in the given text 
+with 1 mismatch/2 mismatches?
+s1: AACAAGCATAAACATTAAAGAC
+s2: AAAAA
+
+count1=0;
+for(i=0;i<length(s1)-lenght(s2)+1;i++){
+   count=0;
+   for(j=0;j<length(s2);j++{
+      if(s1[i+j]!=s2[j])
+	    count++;
+   }
+   if(count==1)
+     count1++;
+     
+}
+
+
+AAAAA with 0 mismatch count is 0
+AAAAA with 1 mismatch count is 4
+AACAA, ATAAA, AAACA, AAAGA
+
+AAAAA with 2 mismatches count is 9
+ACAAG, AAGCA, CATAA, TAAAC, AACAT, ATTAA, TTAAA, TAAAG, AAGAC
+
+
+
+
+1
+AACAA, ATAAA, AAACA, AAAGA
+2:
+ACAAG, AAGCA, CATAA, TAAAC, AACAT, ATTAA, TTAAA, TAAAG, AAGAC
+
+
+ACG
+
+0 mismatch: ACG
+1 mismatch: 3CG, A3G, AC3: 9 possible 3-mers
+ACG
+
+ACT
+ACC
+ACA
+
+AC_:3 G is not used
+A_G:3 C is not used
+_CG:3
+
+
+2 mismatches: 27 3-mers
+ACG
+__G: 33G=9
+
+C(G,T,A)G
+T
+G
+
+__G: 33G=9
+A__: A33=9
+_C_: 3C3=9
+
+
+Neighbors(ACG, 1): 10 Total number of all 3-mers that has a 
+hamming distance of 0 and 1
+
+Hamming Distance 0: 1
+ACG
+Hamming Distance 1: 9
+C, G, T CG: 3CG - 3
+A3G - 3
+AC3 - 3
+
+Neighbors(ACG, 2): 37 Total number of all 3-mers that has a 
+hamming distance of 0, 1 and 2
+
+1+9+27
+
+
+
+
+Neighbors(ACGT, 2): 67
+
+Total number of 4-mers that has a hamming distance of at most 2:
+hamming distance of 2 + hamming distance of 1 + hamming distance of 0
+
+Hamming distance 0= 1
+ACGT 
+Hamming distance 1= 12
+3CGT
+A3GT
+AC3T
+ACG3
+
+Hamming distance 2= 9*6=54
+
+AC33 = 9
+A33T
+A3G3
+3CG3
+33GT
+3C3T
