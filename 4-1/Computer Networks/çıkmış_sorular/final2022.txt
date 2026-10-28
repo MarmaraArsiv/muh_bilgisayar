@@ -1,0 +1,27 @@
+== Multiple Choice Part ==
+
+Go-Back-N: Seq, Len, Ack number filling, which packet will be retransmitted?
+Selective Repeat
+How TCP slow start works
+Data and generator bits are given. Find the remainder.
+Where queueing delay occurs at a router? Input port, output port, switching fabric?
+TCP Reno graph with marked points. What happened at that points (sending rate is decreased but why)?
+
+
+
+
+== Other Questions ==
+
+-> Peer-to-Peer network with 2 devices, port numbers are given for both servers and clients
+	-> Router A and Router B fill the NAT tables
+	-> There is a server in the Network, use it to avoid static NAT table filling
+	-> match+action can be used for NAT? Explain. If yes write necessary rules.
+
+-> A network topology with clients, a router and switches -> How many subnets? How many local IP addresses are required?
+
+-> Dijkstra link state algorithm + destination based forwarding table
+
+-> Distance vector for A and E (according to a network graph). 
+	Remove A-E link. Why does it cause count-to-infinity problem?
+	Which one of A and E send more distance vector updates?
+
