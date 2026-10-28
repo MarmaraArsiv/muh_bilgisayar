@@ -1,0 +1,115 @@
+Marmara University – Faculty of Engineering – Department of Computer Engineering 
+Fall 2021 – CSE3055 Database Systems 
+Homework #3 
+Due: 19.12.2021.Sun 23:59 
+ 
+ 
+Consider the Turkish Super League database accompanied with this homework. 
+ 
+Player (PlayerID: int,   FirstName: nvarchar(25),   LastName: nvarchar(25),   Nationality: varchar(25),   Birthdate: smalldatetime,   Age: smallint,   Position: varchar(25)) 
+Team (TeamID: int,   Name: nvarchar(50),   City: nvarchar(25)) 
+PlayerTeam (PlayerID: int,   TeamID: int,   Season: varchar(5)) 
+Match (MatchID: int,   HomeTeamID: int,   VisitingTeamID: int,   DateOfMatch: smalldatetime,   Week: tinyint) 
+Goals (MatchID: int,   PlayerID: int,   IsOwnGoal: bit,   Minute: tinyint) 
+ 
+Notes: 
+• Table Match stores data only for season 2013-2014. 
+
+• Table Goals stores data only for season 2013-2014. 
+
+
+ 
+ 
+ 
+ 
+ 
+1) Using the backup file TurkishSuperLeague_20211207_StudentVersion.bak accompanied with this homework, restore the database TurkishSuperLeague. Write the following SQL queries, IN A SINGLE STATEMENT, using this database. For each of the following query; save your SQL statements in a text file and take a screenshot of both your SQL query and output of the query on MS SQL Server. 
+
+
+ 
+2) Update the field Age for all players. 
+
+
+ 
+3) List the “younger” players whose first name does not contain “nec” and play in “Beþiktaþ”. “Younger” players are the ones whose ages are less than the average age of all players. Retrieve PlayerID, FirstName + ” “ + LastName. 
+
+
+ 
+4) Update all City values of the table Team as: “City” + “ #p” + “Number of players” +” #g” + “Number of goals forward” (e.g. “Ýstanbul #p25 #g74”). Do not forget to consider own goals in your calculations. 
+
+
+ 
+5) List the top 10 top scorers. Retrieve playerID, first name, last name, number of goals scored, number of matches that player did not score a goal, average number of goals per scored matches. 
+
+
+ 
+6) Implement a stored procedure sp_GetStandingsUpToDate (aDate) such that 
+
+
+exec sp_GetStandingsUpToDate (aDate) computes and shows the standings table, same as in the following figure, up to the date aDate (inclusive). 
+Calling with any invalid date causes an error with a message “Invalid date!” All transactions that have been done will be rolled back and stop doing further operations. 
+ 
+ 
+Table
+
+Description automatically generated
+ 
+ 
+Notes: 
+• Invalid date: any date not between 2013-08-16 and 2014-07-31. 
+
+• The order of the table: Firstly, Pts; secondly, GT; thirdly, GF. 
+
+• Pos will be automatically generated according to the order. Study on ranks. 
+
+• GP (Games Played): the number of matches that a team has played. 
+
+• W (Wins): the number of wins of a team in all games that have been played. 
+
+• T (Ties/Deuce): the number of ties of a team in all games that have been played. 
+
+• L (Losts): the number of losts of a team in all games that have been played. 
+
+• GF (Goals For/Forward): the number of goals scored of a team in all games that have been played, including own goals of the other team. 
+
+• GA (Goals Against): the number of goals scored by the other teams in all games that have been played, including own goals of the team. 
+
+• GD (Goals Difference): GF-GA. 
+
+• Pts (Points): the points accumulated by a team. For each win, a team gets 3 points; for each tie, a team gets 1 point; and, for each lost, a team gets 0 points. 
+
+
+ 
+ 
+ 
+IMPORTANT NOTES 
+1) Write the following sentence in a text file: “We hereby swear that the work done on this project is totally our own; and on our honor, we have neither given nor received any unauthorized and/or inappropriate assistance for this project. We understand that by the school code, violation of these principles will lead to a zero grade and is subject to harsh discipline issues.” Rename it as “we_swear.txt” and include this file in the zip submission file. 
+
+2) In case of any form of copying and cheating on solutions, all parts will get ZERO points. You should submit your own work. In case of any forms of cheating or copying, both giver and receiver are equally culpable and suffer equal penalties. All types of plagiarism will result in zero points from the homework. 
+
+3) Compress the following files in a zip file and name it as hw5_studentID.zip a) hw3_studentID_we_swear.txt: honor code. 
+
+b) hw3_studentID_sql.txt: all your sql statements merged in a single text file in order. 
+
+c) hw3_studentID.bak: your database backup file. 
+
+d) hw3_studentID_scr.pdf: all screenshots of both your SQL queries and output of the queries in order. 
+
+
+
+
+4) Submit your single zip file to the site http://ues.marmara.edu.tr before deadline. 
+
+5) Do not send homework submissions through e-mail. E-mail attachments will not be accepted as valid submissions. 
+
+6) You are responsible for making sure you are turning in the right file, and that it is not corrupted in anyway. We will not allow resubmissions if you turn in the wrong file, even if you can prove that you have not modified the file after the deadline. 
+
+7) No groups are allowed. 
+
+8) Grade evaluation may be done on selected parts of the homework, so try to complete all parts of your homework successfully. 
+
+9) No late submissions will be accepted. 
+
+
+ 
+
