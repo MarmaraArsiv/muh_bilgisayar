@@ -1,0 +1,3 @@
+Suppose r0=0x200000000
+
+What address is r5 loaded from the following instruction..
