@@ -1,0 +1,12 @@
+Info: Start Nativelink Simulation process
+Error: RTL Simulation using NativeLink is not supported when EDA Synthesis using NativeLink is enabled
+Error: NativeLink simulation flow was NOT successful
+
+
+
+================The following additional information is provided to help identify the cause of error while running nativelink scripts=================
+Nativelink TCL script failed with errorCode:  NONE
+Nativelink TCL script failed with errorInfo:  EDA RTL Simulation using NativeLink is not supported wwhen EDA Synthesis using NativeLink is enabled
+    (procedure "run_eda_simulation_tool" line 1)
+    invoked from within
+"run_eda_simulation_tool eda_opts_hash"
