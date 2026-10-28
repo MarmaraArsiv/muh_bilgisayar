@@ -1,0 +1,12 @@
+Final
+----------------------------------------
+
+yine matematiksel işlemler dot cross, vectorlerden açı bulma falan
+
+2D rotation
+
+interpolation (derste gösterdiği gibi zor sormuyor)
+
+phong illumination (ambient+lambertian+specular)
+
+
