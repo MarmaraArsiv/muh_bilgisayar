@@ -1,0 +1,2522 @@
+{
+  "departmentName": "Computer Engineering",
+  "departmentId": "CSE",
+  "faculty": "Engineering",
+  "currentSemester": "fall",
+  "maximumCredits": 260,
+  "numberOfLectureDays": 7,
+  "numberOfLectureHours": 15,
+  "courseTakeLimit": 10,
+  "labCapacityLimit": 40,
+  "electiveCapacityLimit": 60,
+  "departmentNumber": 1501,
+  "curriculum": {
+    "1": [
+      "ATA121",
+      "MBG1201",
+      "CSE1200",
+      "CSE1241",
+      "MATH1001",
+      "PHYS1101",
+      "PHYS1103",
+      "TRD121"
+    ],
+    "2": [
+      "ATA122",
+      "CSE1242",
+      "MATH1002",
+      "MATH2256",
+      "PHYS1102",
+      "PHYS1104",
+      "TRD122",
+      "NTE-1"
+    ],
+    "3": [
+      "CSE2023",
+      "CSE2225",
+      "ECON2004",
+      "EE2031",
+      "MATH2055",
+      "MATH2059"
+    ],
+    "4": [
+      "CSE2246",
+      "CSE2138",
+      "CSE2260",
+      "EE2032",
+      "STAT2253"
+    ],
+    "5": [
+      "CSE3215",
+      "CSE3033",
+      "CSE3055",
+      "CSE3063",
+      "IE3081"
+    ],
+    "6": [
+      "CSE3038",
+      "CSE3044",
+      "CSE3048",
+      "CSE3264",
+      "IE3235",
+      "COM2202"
+    ],
+    "7": [
+      "CSE4074",
+      "CSE4297",
+      "ISG121",
+      "CSE4288",
+      "ENG-UE",
+      "T-E1"
+    ],
+    "8": [
+      "CSE4298",
+      "ISG121",
+      "ENG-FTE",
+      "NTE-2",
+      "T-E2",
+      "T-E3",
+      "T-E4"
+    ]
+  },
+  "courses": [
+    {
+      "courseId": "ATA121",
+      "courseName": "Ataturk\u2019s Principles and the History of Turkish Renovation I",
+      "credits": 2,
+      "lecturer": 13,
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          14
+        ],
+        [
+          2,
+          15
+        ]
+      ],
+      "semester": 1
+    },
+    {
+      "courseId": "MBG1201",
+      "courseName": "Introduction to Modern Biology",
+      "credits": 5,
+      "lecturer": 14,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "semester": 1
+    },
+    {
+      "courseId": "CSE1200",
+      "courseName": "Introduction to Computer Engineering",
+      "credits": 4,
+      "lecturer": 1,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "semester": 1
+    },
+    {
+      "courseId": "CSE1241",
+      "courseName": "Computer Programming I",
+      "credits": 6,
+      "lecturer": 2,
+      "lectureHours": 3,
+      "labHours": 2,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "labSections": [
+        [
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        [
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      ],
+      "schedule": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "semester": 1,
+      "teachingAssistants": [
+        2,
+        3
+      ],
+      "labSectionCapacity": 44
+    },
+    {
+      "courseId": "MATH1001",
+      "courseName": "Calculus I",
+      "credits": 6,
+      "lecturer": 15,
+      "lectureHours": 4,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "semester": 1
+    },
+    {
+      "courseId": "PHYS1101",
+      "courseName": "Physics I",
+      "credits": 4,
+      "lecturer": 16,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "semester": 1
+    },
+    {
+      "courseId": "PHYS1103",
+      "courseName": "Physics Lab I",
+      "credits": 2,
+      "lecturer": 16,
+      "lectureHours": 0,
+      "labHours": 2,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "semester": 1
+    },
+    {
+      "courseId": "TRD121",
+      "courseName": "T\u00fcrk Dili I",
+      "credits": 2,
+      "lecturer": 17,
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          7,
+          7
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "semester": 1
+    },
+    {
+      "courseId": "ATA122",
+      "courseName": "Ataturk\u2019s Principles and the History of Turkish Renovation II",
+      "credits": 2,
+      "lecturer": 13,
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          7,
+          5
+        ],
+        [
+          7,
+          6
+        ]
+      ],
+      "semester": 2
+    },
+    {
+      "courseId": "CSE1242",
+      "courseName": "Computer Programming II",
+      "credits": 6,
+      "lecturer": 3,
+      "lectureHours": 3,
+      "labHours": 2,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": [
+        "CSE2225"
+      ],
+      "labSections": [
+        [
+          [
+            3,
+            7
+          ],
+          [
+            3,
+            8
+          ]
+        ]
+      ],
+      "schedule": [
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "semester": 2,
+      "teachingAssistants": [
+        1
+      ],
+      "labSectionCapacity": 45
+    },
+    {
+      "courseId": "MATH1002",
+      "courseName": "Calculus II",
+      "credits": 6,
+      "lecturer": 18,
+      "lectureHours": 4,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "semester": 2
+    },
+    {
+      "courseId": "MATH2256",
+      "courseName": "Linear Algebra for Computer Engineering",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "semester": 2
+    },
+    {
+      "courseId": "PHYS1102",
+      "courseName": "Physics II",
+      "credits": 4,
+      "lecturer": 16,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "semester": 2
+    },
+    {
+      "courseId": "PHYS1104",
+      "courseName": "Physics Lab II",
+      "credits": 2,
+      "lecturer": 16,
+      "lectureHours": 0,
+      "labHours": 2,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "semester": 2
+    },
+    {
+      "courseId": "TRD122",
+      "courseName": "T\u00fcrk Dili II",
+      "credits": 2,
+      "lecturer": 17,
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          7,
+          1
+        ],
+        [
+          7,
+          2
+        ]
+      ],
+      "semester": 2
+    },
+    {
+      "courseId": "NTE-1",
+      "courseName": "Non-Technical Elective - 1",
+      "credits": 3,
+      "lecturer": null,
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "NTE",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "semester": 2
+    },
+    {
+      "courseId": "CSE2023",
+      "courseName": "Discrete Computational Structures",
+      "credits": 6,
+      "lecturer": 4,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "semester": 3
+    },
+    {
+      "courseId": "CSE2225",
+      "courseName": "Data Structures",
+      "credits": 7,
+      "lecturer": 5,
+      "lectureHours": 3,
+      "labHours": 2,
+      "type": "M",
+      "prerequisites": [
+        "CSE1242"
+      ],
+      "prerequisiteTo": [
+        "CSE2246"
+      ],
+      "labSections": [
+        [
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ]
+        ]
+      ],
+      "schedule": [
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "semester": 3,
+      "teachingAssistants": [
+        3
+      ],
+      "labSectionCapacity": 60
+    },
+    {
+      "courseId": "ECON2004",
+      "courseName": "Engineering Economy",
+      "credits": 2,
+      "lecturer": 19,
+      "lectureHours": 4,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          10
+        ],
+        [
+          2,
+          11
+        ]
+      ],
+      "semester": 3
+    },
+    {
+      "courseId": "EE2031",
+      "courseName": "Electric Circuits",
+      "credits": 5,
+      "lecturer": 20,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "semester": 3
+    },
+    {
+      "courseId": "MATH2055",
+      "courseName": "Differential Equations",
+      "credits": 4,
+      "lecturer": 15,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "semester": 3
+    },
+    {
+      "courseId": "MATH2059",
+      "courseName": "Numerical Methods",
+      "credits": 4,
+      "lecturer": 12,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "semester": 3
+    },
+    {
+      "courseId": "CSE2246",
+      "courseName": "Analysis of Algorithms",
+      "credits": 6,
+      "lecturer": 6,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": [
+        "CSE2225"
+      ],
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "semester": 4
+    },
+    {
+      "courseId": "CSE2138",
+      "courseName": "System Programming",
+      "credits": 7,
+      "lecturer": 1,
+      "lectureHours": 3,
+      "labHours": 2,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "labSections": [
+        [
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        [
+          [
+            5,
+            8
+          ],
+          [
+            5,
+            9
+          ]
+        ]
+      ],
+      "schedule": [
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "semester": 4,
+      "teachingAssistants": [
+        3,
+        2
+      ],
+      "labSectionCapacity": 33
+    },
+    {
+      "courseId": "CSE2260",
+      "courseName": "Principles of Programming Languages",
+      "credits": 6,
+      "lecturer": 1,
+      "lectureHours": 3,
+      "labHours": 2,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "semester": 4
+    },
+    {
+      "courseId": "EE2032",
+      "courseName": "Electronics",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 2,
+      "labHours": 2,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "labSections": [
+        [
+          [
+            4,
+            9
+          ],
+          [
+            4,
+            10
+          ]
+        ]
+      ],
+      "schedule": [
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "semester": 4,
+      "labSectionCapacity": 56
+    },
+    {
+      "courseId": "STAT2253",
+      "courseName": "Probability and Statistics for Computer Engineering",
+      "credits": 5,
+      "lecturer": 7,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "semester": 4
+    },
+    {
+      "courseId": "CSE3215",
+      "courseName": "Digital Logic Design",
+      "credits": 6,
+      "lecturer": 8,
+      "lectureHours": 3,
+      "labHours": 2,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "labSections": [
+        [
+          [
+            3,
+            8
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        [
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ]
+        ]
+      ],
+      "schedule": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "semester": 5,
+      "teachingAssistants": [
+        4,
+        3
+      ],
+      "labSectionCapacity": 37
+    },
+    {
+      "courseId": "CSE3033",
+      "courseName": "Operating Systems",
+      "credits": 7,
+      "lecturer": 9,
+      "lectureHours": 3,
+      "labHours": 2,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": [
+        "CSE4034"
+      ],
+      "labSection": [
+        [
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        [
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ]
+        ]
+      ],
+      "schedule": [
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "semester": 5
+    },
+    {
+      "courseId": "CSE3055",
+      "courseName": "Database Systems",
+      "credits": 7,
+      "lecturer": 2,
+      "lectureHours": 3,
+      "labHours": 2,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "labSection": [
+        [
+          [
+            2,
+            8
+          ],
+          [
+            2,
+            9
+          ]
+        ],
+        [
+          [
+            4,
+            8
+          ],
+          [
+            4,
+            9
+          ]
+        ]
+      ],
+      "schedule": [
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "semester": 5
+    },
+    {
+      "courseId": "CSE3063",
+      "courseName": "Object-Oriented Software Design",
+      "credits": 5,
+      "lecturer": 10,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "semester": 5
+    },
+    {
+      "courseId": "IE3081",
+      "courseName": "Modeling and Discrete Simulation",
+      "credits": 4,
+      "lecturer": 7,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "semester": 5
+    },
+    {
+      "courseId": "CSE3038",
+      "courseName": "Computer Organization",
+      "credits": 7,
+      "lecturer": 8,
+      "lectureHours": 3,
+      "labHours": 2,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "labSections": [
+        [
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ]
+        ]
+      ],
+      "schedule": [
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "semester": 6,
+      "teachingAssistants": [
+        5
+      ],
+      "labSectionCapacity": 53
+    },
+    {
+      "courseId": "CSE3044",
+      "courseName": "Software Engineering",
+      "credits": 7,
+      "lecturer": 5,
+      "lectureHours": 3,
+      "labHours": 2,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "labSection": [
+        [
+          [
+            2,
+            8
+          ],
+          [
+            2,
+            9
+          ]
+        ]
+      ],
+      "schedule": [
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "semester": 6
+    },
+    {
+      "courseId": "CSE3048",
+      "courseName": "Introduction to Signals and Systems",
+      "credits": 5,
+      "lecturer": 11,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "semester": 6
+    },
+    {
+      "courseId": "CSE3264",
+      "courseName": "Formal Languages and Automata Theory",
+      "credits": 5,
+      "lecturer": 9,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": [
+        "CSE4061"
+      ],
+      "schedule": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "semester": 6
+    },
+    {
+      "courseId": "IE3235",
+      "courseName": "Operations Research",
+      "credits": 4,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "semester": 6
+    },
+    {
+      "courseId": "COM2202",
+      "courseName": "Technical Comm. and Entrepreneurship",
+      "credits": 2,
+      "lecturer": null,
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          5,
+          10
+        ],
+        [
+          5,
+          11
+        ]
+      ],
+      "semester": 6
+    },
+    {
+      "courseId": "CSE4074",
+      "courseName": "Computer Networks",
+      "credits": 5,
+      "lecturer": 6,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": [
+        "CSE4075"
+      ],
+      "schedule": [
+        [
+          1,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "semester": 7
+    },
+    {
+      "courseId": "CSE4297",
+      "courseName": "Engineering Project I",
+      "credits": 5,
+      "minCompletedCredits": 165,
+      "lecturer": null,
+      "lectureHours": 0,
+      "labHours": 2,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": [
+        "CSE4298"
+      ],
+      "schedule": [
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "semester": 7
+    },
+    {
+      "courseId": "ISG121",
+      "courseName": "\u0130\u015f Sa\u011fl\u0131\u011f\u0131 ve G\u00fcvenli\u011fi I",
+      "credits": 2,
+      "lecturer": 21,
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          5,
+          9
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "semester": 7
+    },
+    {
+      "courseId": "CSE4288",
+      "courseName": "Introduction to Machine Learning",
+      "credits": 5,
+      "lecturer": 12,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "semester": 7
+    },
+    {
+      "courseId": "ENG-UE",
+      "courseName": "University Elective",
+      "credits": 3,
+      "lecturer": null,
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "UE",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "semester": 7
+    },
+    {
+      "courseId": "T-E1",
+      "courseName": "Technical Elective-1",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "TE",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "semester": 7
+    },
+    {
+      "courseId": "CSE4298",
+      "courseName": "Engineering Project II",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 0,
+      "labHours": 2,
+      "type": "M",
+      "prerequisites": [
+        "CSE4297"
+      ],
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "semester": 8
+    },
+    {
+      "courseId": "ISG121",
+      "courseName": "\u0130\u015f Sa\u011fl\u0131\u011f\u0131 ve G\u00fcvenli\u011fi II",
+      "credits": 2,
+      "lecturer": 21,
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "M",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "semester": 8
+    },
+    {
+      "courseId": "ENG-FTE",
+      "courseName": "Faculty Technical Electives",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "FTE",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "semester": 8
+    },
+    {
+      "courseId": "NTE-2",
+      "courseName": "Non-Technical Elective - 2",
+      "credits": 3,
+      "lecturer": null,
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "NTE",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "semester": 8
+    },
+    {
+      "courseId": "T-E2",
+      "courseName": "Technical Elective-2",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "TE",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "semester": 8
+    },
+    {
+      "courseId": "T-E3",
+      "courseName": "Technical Elective-3",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "TE",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "semester": 8
+    },
+    {
+      "courseId": "T-E4",
+      "courseName": "Technical Elective-4",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "TE",
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "semester": 8
+    },
+    {
+      "courseId": "CSE4026",
+      "courseName": "Introduction to Robotics and Control Theory",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          1,
+          9
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          9
+        ]
+      ]
+    },
+    {
+      "courseId": "CSE4032",
+      "courseName": "Introduction to Distributed Systems",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null
+    },
+    {
+      "courseId": "CSE4034",
+      "courseName": "Advanced Unix Programming",
+      "credits": 5,
+      "lecturer": 3,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "courseId": "CSE4038",
+      "courseName": "Introduction to Parallel Processing",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null
+    },
+    {
+      "courseId": "CSE4040",
+      "courseName": "Cloud Computing",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null
+    },
+    {
+      "courseId": "CSE4044",
+      "courseName": "Software Project Management",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null
+    },
+    {
+      "courseId": "CSE4053",
+      "courseName": "Information Systems: Analysis and Design ",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "courseId": "CSE4056",
+      "courseName": "Management of Information Systems",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null
+    },
+    {
+      "courseId": "CSE4057",
+      "courseName": "Information Systems Security",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ]
+    },
+    {
+      "courseId": "CSE4058",
+      "courseName": "Fundamentals of Electronic Commerce",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null
+    },
+    {
+      "courseId": "CSE4059",
+      "courseName": "Internet Programming",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null
+    },
+    {
+      "courseId": "CSE4061",
+      "courseName": "Compiler Design",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": [
+        "CSE3264"
+      ],
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ]
+      ]
+    },
+    {
+      "courseId": "CSE4062",
+      "courseName": "Introduction to Data Science and Analytics",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "courseId": "CSE4063",
+      "courseName": "Fundamentals of Data Mining",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null
+    },
+    {
+      "courseId": "CSE4065",
+      "courseName": "Introduction to Computational Genomics",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "courseId": "CSE4066",
+      "courseName": "Introduction to Cryptography",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null
+    },
+    {
+      "courseId": "CSE4067",
+      "courseName": "Introduction to Blockchain Programming",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null
+    },
+    {
+      "courseId": "CSE4070",
+      "courseName": "Software Framework",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null
+    },
+    {
+      "courseId": "CSE4075",
+      "courseName": "Wireless and Mobile Networks",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": [
+        "CSE4074"
+      ],
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          9
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "courseId": "CSE4082",
+      "courseName": "Artificial Intelligence",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ]
+      ]
+    },
+    {
+      "courseId": "CSE4083",
+      "courseName": "Computer Graphics",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          6
+        ]
+      ]
+    },
+    {
+      "courseId": "CSE4084",
+      "courseName": "Multimedia Systems",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "courseId": "CSE4085",
+      "courseName": "Human Computer Interaction",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null
+    },
+    {
+      "courseId": "CSE4086",
+      "courseName": "Mobile Device Programming",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "courseId": "CSE4217",
+      "courseName": "Microprocessors",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          1,
+          8
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "courseId": "CSE4093",
+      "courseName": "Special Topics in Computer Engineering I",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null
+    },
+    {
+      "courseId": "CSE4094",
+      "courseName": "Special Topics in Computer Engineering II",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null
+    },
+    {
+      "courseId": "CSE4095",
+      "courseName": "Special Topics in Computer Engineering III",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "courseId": "CSE4096",
+      "courseName": "Special Topics in Computer Engineering IV",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "TE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null
+    },
+    {
+      "courseId": "NTE1003",
+      "courseName": "The Culture of Radiation Safety",
+      "credits": 3,
+      "lecturer": "Dr. DEN\u0130Z \u00d6NER",
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "NTE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          9
+        ],
+        [
+          2,
+          10
+        ]
+      ]
+    },
+    {
+      "courseId": "NTE1014",
+      "courseName": "Introduction to Strategic Human Resources Management",
+      "credits": 3,
+      "lecturer": "\u00d6\u011fr.G\u00f6r. \u00d6ZLEM YILMAZ",
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "NTE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "courseId": "NTE1015",
+      "courseName": "Introduction to Leadership & Management for Engineers",
+      "credits": 3,
+      "lecturer": "\u00d6\u011fr.G\u00f6r. \u00d6ZLEM YILMAZ",
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "NTE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "courseId": "NTE1016",
+      "courseName": "Introduction to Strategy for Engineers",
+      "credits": 3,
+      "lecturer": "\u00d6\u011fr.G\u00f6r. \u00d6ZLEM YILMAZ",
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "NTE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ]
+      ]
+    },
+    {
+      "courseId": "NTE1017",
+      "courseName": "Marketing in a Technology Driven world for Engineers",
+      "credits": 3,
+      "lecturer": "Dr. CANER D\u0130LMENER",
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "NTE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ]
+      ]
+    },
+    {
+      "courseId": "NTE1018",
+      "courseName": "Introduction to Business World for Engineers",
+      "credits": 3,
+      "lecturer": "\u00d6\u011fr.G\u00f6r. \u00d6ZLEM YILMAZ",
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "NTE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ]
+    },
+    {
+      "courseId": "BUS1003",
+      "courseName": "Entrepreneurship and Innovation",
+      "credits": 3,
+      "lecturer": null,
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "UE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "courseId": "HR1013",
+      "courseName": "Career Development",
+      "credits": 3,
+      "lecturer": null,
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "UE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "courseId": "YDA1001",
+      "courseName": "German for Beginners",
+      "credits": 3,
+      "lecturer": null,
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "UE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "courseId": "YDA1002",
+      "courseName": "German",
+      "credits": 3,
+      "lecturer": null,
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "UE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ]
+      ]
+    },
+    {
+      "courseId": "YDF1001",
+      "courseName": "French for Beginners",
+      "credits": 3,
+      "lecturer": null,
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "UE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "courseId": "YDF1002",
+      "courseName": "French",
+      "credits": 3,
+      "lecturer": null,
+      "lectureHours": 2,
+      "labHours": 0,
+      "type": "UE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ]
+      ]
+    },
+    {
+      "courseId": "CHE4068",
+      "courseName": "Financial Engineering",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "FTE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null
+    },
+    {
+      "courseId": "CSE4044",
+      "courseName": "Software Project Management",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "FTE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null
+    },
+    {
+      "courseId": "EE4062",
+      "courseName": "Introduction to Image Processing",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "FTE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          1,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          3,
+          10
+        ]
+      ]
+    },
+    {
+      "courseId": "ENVE4062",
+      "courseName": "Energy and the Environment",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "FTE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          5,
+          8
+        ]
+      ]
+    },
+    {
+      "courseId": "ME4022",
+      "courseName": "Control Systems",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "FTE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null
+    },
+    {
+      "courseId": "MGT4084",
+      "courseName": "Innovation and New Product Development Management",
+      "credits": 5,
+      "lecturer": null,
+      "lectureHours": 3,
+      "labHours": 0,
+      "type": "FTE",
+      "capacity": 30,
+      "prerequisites": null,
+      "prerequisiteTo": null,
+      "schedule": [
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ]
+    }
+  ],
+  "lecturers": [
+    {
+      "id": 1,
+      "name": "Fatma Corut Ergin",
+      "department": "CSE"
+    },
+    {
+      "id": 2,
+      "name": "Mustafa A\u011fao\u011flu",
+      "department": "CSE"
+    },
+    {
+      "id": 3,
+      "name": "Sanem Arslan Y\u0131lmaz",
+      "department": "CSE"
+    },
+    {
+      "id": 4,
+      "name": "Ali Fuat Alkaya",
+      "department": "CSE"
+    },
+    {
+      "id": 5,
+      "name": "Mustafa Borahan T\u00fcmer",
+      "department": "CSE"
+    },
+    {
+      "id": 6,
+      "name": "\u00d6mer Kor\u00e7ak",
+      "department": "CSE"
+    },
+    {
+      "id": 7,
+      "name": "M\u00fcjdat Soyt\u00fcrk",
+      "department": "CSE"
+    },
+    {
+      "id": 8,
+      "name": "Bet\u00fcl Boz",
+      "department": "CSE"
+    },
+    {
+      "id": 9,
+      "name": "Ali Haydar \u00d6zer",
+      "department": "CSE"
+    },
+    {
+      "id": 10,
+      "name": "Murat Can Ganiz",
+      "department": "CSE"
+    },
+    {
+      "id": 11,
+      "name": "Mehmet Kadir Baran",
+      "department": "CSE"
+    },
+    {
+      "id": 12,
+      "name": "\u00c7i\u011fdem Ero\u011flu Erdem",
+      "department": "CSE"
+    },
+    {
+      "id": 13,
+      "name": "H\u00fclya \u00d6zler",
+      "department": null
+    },
+    {
+      "id": 14,
+      "name": "Beste Turanl\u0131",
+      "department": null
+    },
+    {
+      "id": 15,
+      "name": "M. Nureddin T\u00fcrkan",
+      "department": null
+    },
+    {
+      "id": 16,
+      "name": "Mustafa Alevli",
+      "department": null
+    },
+    {
+      "id": 17,
+      "name": "Yasemin Bulut",
+      "department": null
+    },
+    {
+      "id": 18,
+      "name": "Mustafa Cem \u00c7elik",
+      "department": null
+    },
+    {
+      "id": 19,
+      "name": "Eren Y\u0131ld\u0131z Geyhan",
+      "department": null
+    },
+    {
+      "id": 20,
+      "name": "Fulya \u00c7all\u0131alp",
+      "department": null
+    },
+    {
+      "id": 21,
+      "name": "Mustafa Y\u0131lmaz",
+      "department": null
+    }
+  ],
+  "teachingAssistants": [
+    {
+      "id": 1,
+      "name": "Birol Gen\u00e7y\u0131lmaz",
+      "department": "CSE"
+    },
+    {
+      "id": 2,
+      "name": "Zuhal Altunta\u015f",
+      "department": "CSE"
+    },
+    {
+      "id": 3,
+      "name": "Serap Korkmaz",
+      "department": "CSE"
+    },
+    {
+      "id": 4,
+      "name": "Muhammed Nur Avcil",
+      "department": "CSE"
+    },
+    {
+      "id": 5,
+      "name": "Lokman Altın",
+      "department": "CSE"
+    }
+  ],
+  "students": []
+}
