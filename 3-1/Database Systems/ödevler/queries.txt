@@ -1,0 +1,12 @@
+-- List first name, last name, birthdate and city of students.
+Select s.fName, s.lName, s.birthDate, s.city From STUDENT s
+-- List first name, last name, department name, advisor’s first name and last name. Order the list by department name ascending and student’s last name.
+Select s.fName, s.lName,d.dname, st.fName, st.lName From STUDENT s inner join DEPARTMENT d on s.deptCode=d.deptCode inner join STAFF st on s.advisorID=st.staffID Order By d.dName, s.lName ASC
+-- List distinct first and last name of students whose department is Computer Engineering.
+Select distinct s.fName, s.lName From STUDENT s inner join DEPARTMENT d on s.deptCode=d.deptCode Where d.dName='Computer Engineering'
+-- List all attributes of the students whose first name contains ‘at’.
+Select * From STUDENT Where STUDENT.fName like '%at%'
+-- List staff ID, first name and last name of married managers who is older than 40 and have at least 2 children. Order the list by birthdate.
+Select s.staffID, s.fName, s.lName From STAFF s, MANAGER m Where s.staffID=m.staffID and s.isMarried=1 and FLOOR(DATEDIFF(DAY, s.birthDate , GETDATE()) / 365.25) >= 40 and s.noOfChildren>=2 Order By s.birthDate
+-- List student ID, first and last name, department name and graduation date of students who have graduated after 21.05.2010.
+Select s.studentID, s.fName, s.lName, d.dName, dip.dateOfGraduation From STUDENT s, DEPARTMENT d, DIPLOMA dip Where s.deptCode=d.deptCode and s.studentID=dip.studentID and dip.dateOfGraduation > convert(date,'2010-05-21',102)
