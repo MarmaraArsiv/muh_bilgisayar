@@ -1,0 +1,133 @@
+week 3-1
+similarity-dissimilarity dersinde instance, attribute row column hakkında soru sorabilirim dedi.
+
+euclidian dissimilarity dimantionality yükselince(number of columns artınca) hesaplaması zor.
+onun yerine cosine similarity kullanılır. (text mining için iyidir)
+L1 L2 norm önemli galiba ( manhattan similarity bak)
+
+data attribute types:
+1)numerical: binary, ordinal , interval-scaled, ratio scaled
+2)categorical : nominal
+
+week 3-2 ->  kesin soru gelcek dedi
+Sınavda data quality soracak yüksek ihtimal.
+measures: quality -> accuracy, completeness, consistance, timeliness, beliveability, interptretability
+
+data reduction
+
+1)dimentionality reduction ( attribute level - columns) curse of dimentionality
+feature extraction-engineering
+deep learning algorithms automized this 
+traditional ml algoritms this step is done manually
+
+60-80 percent of the effort goes into data preprocessing step because it is done manually
+and it is the most important part 
+
+operational database -> supports daily operations on company ( may be incomplate)
+data warehouse -> supports desicion making / reporting (complete)
+
+supervised -> labeled -> class attribute selection to predict and other attributes
+
+2) Numerosity reduction ( numerosity reduction - rows)
+linear regression is used
+	
+
+week 4-3 
+mining
+supervised ml algorithms -> labeled (predictive)
+
+unsupervised ml algorithms (descriptive) extract patterns from data to get insights 
+1) association mining
+2) clustering
+
+downward closure property: (top->bottom)
+any subset of of frequent(support(x) > min support treshold) items  must be frequent.
+if{beer,diaper,nuts} frequent -> {beer,diaper} is also frequent.
+
+apriori sınavda çıkabilir 
+apriori (fundamental algorithm) :  (bottom->up) week4-3 anlatıyor pruning önemli
+if there is any itemset which is infrequent, its superset should not be tested!
+
+week 5-1 dk 14.30 sınav sorusu olabilir	
+
+week 5-2 5-3 atladım
+
+week 6-1
+ml algoritms
+- supervised -> labeled -> class attribute selection to predict and other attributes
+- unsupervised -> arm - clustering
+-------------------------------------------- 
+supervised algoritms
+classification vs prediction
+classification -> class attribute is nominal(categorical)
+prediction/regression -> class attribute is numerical
+--------------------------------------------
+
+overfitting on desicion tree: poor accuracy for unseen samples. too many branches,
+some may be reflecting anomalies due to the noise
+opposite of overfitting is generalization. it is ability to give answers to the 
+data which is outside of the training set
+
+week6-3 yarısında kaldım
+
+bayesian classification 6-3 örnekle anlatıyor.
+can work with large datasets (scalability!!) , incremental, each training example can increse/decrease
+accuracy
+
+
+week7-1
+desicion tree tekrar anlattı
+top down recursive divide and conquer algortim 
+select the attribute, divide the data set to the partitions, 
+after partitioning make a recursive call to select the highest information gain attribute and continue
+
+naive bayes tekrar anlattı
+
+neural networks
+poor interpretability -> can not explain what the model learned ( black box )
+in desicion tree and bayes we can extract rules to explain what the model learned!
+
+prediction algorithms
+1) linear regression
+
+accuracy measure
+confision matrix
+week 7 lecture 3
+rows-> actual labels columns classification
+
+	true P 	| false Negative
+	false P	| true Negative
+
+buradan soru gelebilir dedi
+hangi classification methodunun daha iyi olduğunu seçmek için
+
+presicion recall formülleri varmış bunlara göre
+
+presicion = TP/TP+FP -> FP cost (formülde sadece positive var)
+recall = TP/TP+FN    -> FN cost	bu costlara göre uygun modeli seçme (formülde negative var)
+
+week 7-3 dk 45 bak!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
