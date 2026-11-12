@@ -35,7 +35,8 @@
 Dersi 2025-2026 ve 2026-2027 akademik yıllarında veren hocalar. Yorumlar hocanın tüm derslerini kapsar.
 
 - **[Prof. Dr. Mustafa Alevli](../../README.md#‍-prof-dr-mustafa-alevli)**
-    - ✍️ Henüz yorum yok. Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLSf-b3VLnBxONXThFPzdsN5clQreZKEo2mumaLpJlEptHwREOw/viewform?usp=pp_url&entry.84773384=Prof.%20Dr.%20Mustafa%20Alevli) bu hoca hakkında anonim şekilde görüşlerinizi belirtebilirsiniz.
+    - 👤 **_Meşhur tft faresi_**: Verdiği ödevler çok uzun ℹ️ Yorum **11.2026** tarihinde yapılmıştır.
+    - ✍️ Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLSf-b3VLnBxONXThFPzdsN5clQreZKEo2mumaLpJlEptHwREOw/viewform?usp=pp_url&entry.84773384=Prof.%20Dr.%20Mustafa%20Alevli) bu hoca hakkında anonim şekilde görüşlerinizi belirtebilirsiniz.
 - **[Dr. Öğretim Üyesi Makbule Tamkaş](../../README.md#‍-dr-öğretim-üyesi-makbule-tamkaş)**
     - ✍️ Henüz yorum yok. Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLSf-b3VLnBxONXThFPzdsN5clQreZKEo2mumaLpJlEptHwREOw/viewform?usp=pp_url&entry.84773384=Dr.%20%C3%96%C4%9Fretim%20%C3%9Cyesi%20Makbule%20Tamka%C5%9F) bu hoca hakkında anonim şekilde görüşlerinizi belirtebilirsiniz.
 - **[Prof. Dr. Şahin Aktaş](../../README.md#‍-prof-dr-şahin-aktaş)**

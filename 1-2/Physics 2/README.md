@@ -39,7 +39,8 @@ Dersi 2025-2026 ve 2026-2027 akademik yıllarında veren hocalar. Yorumlar hocan
 - **[Prof. Dr. Fatih Dumludağ](../../README.md#‍-prof-dr-fatih-dumludağ)**
     - ✍️ Henüz yorum yok. Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLSf-b3VLnBxONXThFPzdsN5clQreZKEo2mumaLpJlEptHwREOw/viewform?usp=pp_url&entry.84773384=Prof.%20Dr.%20Fatih%20Dumluda%C4%9F) bu hoca hakkında anonim şekilde görüşlerinizi belirtebilirsiniz.
 - **[Prof. Dr. Mustafa Alevli](../../README.md#‍-prof-dr-mustafa-alevli)**
-    - ✍️ Henüz yorum yok. Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLSf-b3VLnBxONXThFPzdsN5clQreZKEo2mumaLpJlEptHwREOw/viewform?usp=pp_url&entry.84773384=Prof.%20Dr.%20Mustafa%20Alevli) bu hoca hakkında anonim şekilde görüşlerinizi belirtebilirsiniz.
+    - 👤 **_Meşhur tft faresi_**: Verdiği ödevler çok uzun ℹ️ Yorum **11.2026** tarihinde yapılmıştır.
+    - ✍️ Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLSf-b3VLnBxONXThFPzdsN5clQreZKEo2mumaLpJlEptHwREOw/viewform?usp=pp_url&entry.84773384=Prof.%20Dr.%20Mustafa%20Alevli) bu hoca hakkında anonim şekilde görüşlerinizi belirtebilirsiniz.
 - **[Prof. Dr. Cumali Tav](../../README.md#‍-prof-dr-cumali-tav)**
     - ✍️ Henüz yorum yok. Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLSf-b3VLnBxONXThFPzdsN5clQreZKEo2mumaLpJlEptHwREOw/viewform?usp=pp_url&entry.84773384=Prof.%20Dr.%20Cumali%20Tav) bu hoca hakkında anonim şekilde görüşlerinizi belirtebilirsiniz.
 

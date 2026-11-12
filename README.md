@@ -2604,7 +2604,8 @@ Bölüme servis dersi (Fizik, Matematik, Kimya, Türk Dili, İngilizce vb.) vere
 - 🚪 **Ofis:** 
 - 🔗 **Araştırma Sayfası:** 
 - 💬 **Öğrenci Görüşleri:**
-  - ℹ️ Henüz yorum yok. Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLSf-b3VLnBxONXThFPzdsN5clQreZKEo2mumaLpJlEptHwREOw/viewform?usp=pp_url&entry.84773384=Prof.%20Dr.%20Mustafa%20Alevli) anonim şekilde görüşlerinizi belirtebilirsiniz.
+  - 👤 **_Meşhur tft faresi_**: Verdiği ödevler çok uzun ℹ️ Yorum **11.2026** tarihinde yapılmıştır.
+    - ℹ️ Siz de [linkten](https://docs.google.com/forms/d/e/1FAIpQLSf-b3VLnBxONXThFPzdsN5clQreZKEo2mumaLpJlEptHwREOw/viewform?usp=pp_url&entry.84773384=Prof.%20Dr.%20Mustafa%20Alevli) anonim şekilde görüşlerinizi belirtebilirsiniz.
 - 📚 **Verdiği Dersler:**
   - 📖 [Physics 1](#-physics-1) (2021-2022 → 2026-2027)
   - 📖 [Physics 2](#-physics-2) (2021-2022 → 2025-2026)
